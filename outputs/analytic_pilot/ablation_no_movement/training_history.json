@@ -1,0 +1,674 @@
+[
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 0,
+    "ratio_updates": 1,
+    "ratio_batch_mse": 4.948907466431976,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 10,
+    "ratio_updates": 11,
+    "ratio_batch_mse": 1.435759815490931,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 20,
+    "ratio_updates": 21,
+    "ratio_batch_mse": 2.163671592863185,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 30,
+    "ratio_updates": 31,
+    "ratio_batch_mse": 1.7411158580563293,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 40,
+    "ratio_updates": 41,
+    "ratio_batch_mse": 1.44358819734651,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 50,
+    "ratio_updates": 51,
+    "ratio_batch_mse": 3.0293981416228304,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 60,
+    "ratio_updates": 61,
+    "ratio_batch_mse": 2.0201237933928256,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 70,
+    "ratio_updates": 71,
+    "ratio_batch_mse": 2.040551447109257,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 80,
+    "ratio_updates": 81,
+    "ratio_batch_mse": 1.6014701619521154,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 90,
+    "ratio_updates": 91,
+    "ratio_batch_mse": 1.8364963016045934,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 100,
+    "ratio_updates": 101,
+    "ratio_batch_mse": 1.5427251233971242,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 110,
+    "ratio_updates": 111,
+    "ratio_batch_mse": 1.4463604276439714,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 120,
+    "ratio_updates": 121,
+    "ratio_batch_mse": 1.0010332468176633,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 130,
+    "ratio_updates": 131,
+    "ratio_batch_mse": 1.294186375361919,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 140,
+    "ratio_updates": 141,
+    "ratio_batch_mse": 1.4767381760687395,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 150,
+    "ratio_updates": 151,
+    "ratio_batch_mse": 0.998651595908696,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 160,
+    "ratio_updates": 161,
+    "ratio_batch_mse": 1.327200944096445,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 170,
+    "ratio_updates": 171,
+    "ratio_batch_mse": 1.12266372910165,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 180,
+    "ratio_updates": 181,
+    "ratio_batch_mse": 1.0938404194098232,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 190,
+    "ratio_updates": 191,
+    "ratio_batch_mse": 0.7967517879025561,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 199,
+    "ratio_updates": 200,
+    "ratio_batch_mse": 1.2697640142744038,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 0,
+    "ratio_updates": 201,
+    "ratio_batch_mse": 1.315482106183585,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 10,
+    "ratio_updates": 211,
+    "ratio_batch_mse": 1.1546198425379868,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 20,
+    "ratio_updates": 221,
+    "ratio_batch_mse": 0.9411250792033236,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 30,
+    "ratio_updates": 231,
+    "ratio_batch_mse": 1.015422674973442,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 40,
+    "ratio_updates": 241,
+    "ratio_batch_mse": 1.0534905692029832,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 50,
+    "ratio_updates": 251,
+    "ratio_batch_mse": 0.9295987987671728,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 60,
+    "ratio_updates": 261,
+    "ratio_batch_mse": 0.9496040720528534,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 70,
+    "ratio_updates": 271,
+    "ratio_batch_mse": 1.2450356337612358,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 80,
+    "ratio_updates": 281,
+    "ratio_batch_mse": 0.9971710631294682,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 90,
+    "ratio_updates": 291,
+    "ratio_batch_mse": 1.5073711829282708,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 100,
+    "ratio_updates": 301,
+    "ratio_batch_mse": 1.0301381963363325,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 110,
+    "ratio_updates": 311,
+    "ratio_batch_mse": 1.026377162448109,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 120,
+    "ratio_updates": 321,
+    "ratio_batch_mse": 0.7601017680367721,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 130,
+    "ratio_updates": 331,
+    "ratio_batch_mse": 0.9584127300422867,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 140,
+    "ratio_updates": 341,
+    "ratio_batch_mse": 0.9077523652956013,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 150,
+    "ratio_updates": 351,
+    "ratio_batch_mse": 1.0802037388563424,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 160,
+    "ratio_updates": 361,
+    "ratio_batch_mse": 0.7386579567295816,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 170,
+    "ratio_updates": 371,
+    "ratio_batch_mse": 0.8999341229776514,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 180,
+    "ratio_updates": 381,
+    "ratio_batch_mse": 0.8879486210025076,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 190,
+    "ratio_updates": 391,
+    "ratio_batch_mse": 1.0871349392171397,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 199,
+    "ratio_updates": 400,
+    "ratio_batch_mse": 0.7778544663172651,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 0,
+    "ratio_updates": 401,
+    "ratio_batch_mse": 0.8129082228680253,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 10,
+    "ratio_updates": 411,
+    "ratio_batch_mse": 0.6292191535269587,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 20,
+    "ratio_updates": 421,
+    "ratio_batch_mse": 0.7866020364407883,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 30,
+    "ratio_updates": 431,
+    "ratio_batch_mse": 1.1445680433170966,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 40,
+    "ratio_updates": 441,
+    "ratio_batch_mse": 1.0456299961340436,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 50,
+    "ratio_updates": 451,
+    "ratio_batch_mse": 0.7466816414773372,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 60,
+    "ratio_updates": 461,
+    "ratio_batch_mse": 0.6485784320564185,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 70,
+    "ratio_updates": 471,
+    "ratio_batch_mse": 1.022967061730269,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 80,
+    "ratio_updates": 481,
+    "ratio_batch_mse": 0.9006256345274227,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 90,
+    "ratio_updates": 491,
+    "ratio_batch_mse": 0.6497109271762253,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 100,
+    "ratio_updates": 501,
+    "ratio_batch_mse": 0.7260930999716506,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 110,
+    "ratio_updates": 511,
+    "ratio_batch_mse": 1.01020525057339,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 120,
+    "ratio_updates": 521,
+    "ratio_batch_mse": 0.4508345147380627,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 130,
+    "ratio_updates": 531,
+    "ratio_batch_mse": 0.9453364966719067,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 140,
+    "ratio_updates": 541,
+    "ratio_batch_mse": 0.785697920130586,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 150,
+    "ratio_updates": 551,
+    "ratio_batch_mse": 0.5429346495853762,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 160,
+    "ratio_updates": 561,
+    "ratio_batch_mse": 0.7495217223684392,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 170,
+    "ratio_updates": 571,
+    "ratio_batch_mse": 0.5586486870063729,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 180,
+    "ratio_updates": 581,
+    "ratio_batch_mse": 0.690041279948139,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 190,
+    "ratio_updates": 591,
+    "ratio_batch_mse": 0.39205428227812267,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_before_proposal",
+    "step": 199,
+    "ratio_updates": 600,
+    "ratio_batch_mse": 0.441368269932147,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 0,
+    "ratio_updates": 601,
+    "ratio_batch_mse": 0.8305172117315205,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 10,
+    "ratio_updates": 611,
+    "ratio_batch_mse": 0.712646710823239,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 20,
+    "ratio_updates": 621,
+    "ratio_batch_mse": 0.3030566252861871,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 30,
+    "ratio_updates": 631,
+    "ratio_batch_mse": 0.7976153086759938,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 40,
+    "ratio_updates": 641,
+    "ratio_batch_mse": 0.7859597769561171,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 50,
+    "ratio_updates": 651,
+    "ratio_batch_mse": 0.37185813481067603,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 60,
+    "ratio_updates": 661,
+    "ratio_batch_mse": 0.298887640349419,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 70,
+    "ratio_updates": 671,
+    "ratio_batch_mse": 0.7149489553868325,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 80,
+    "ratio_updates": 681,
+    "ratio_batch_mse": 0.6765869321637746,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 90,
+    "ratio_updates": 691,
+    "ratio_batch_mse": 0.5898926125981423,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 100,
+    "ratio_updates": 701,
+    "ratio_batch_mse": 0.2207100167387523,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 110,
+    "ratio_updates": 711,
+    "ratio_batch_mse": 0.6110003036950328,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 120,
+    "ratio_updates": 721,
+    "ratio_batch_mse": 0.6244311517200865,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 130,
+    "ratio_updates": 731,
+    "ratio_batch_mse": 0.5354318978356603,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 140,
+    "ratio_updates": 741,
+    "ratio_batch_mse": 0.8407290513513319,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 150,
+    "ratio_updates": 751,
+    "ratio_batch_mse": 0.5191215971973265,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 160,
+    "ratio_updates": 761,
+    "ratio_batch_mse": 0.1823630014185815,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 170,
+    "ratio_updates": 771,
+    "ratio_batch_mse": 0.8324788690334716,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 180,
+    "ratio_updates": 781,
+    "ratio_batch_mse": 0.37665223875516723,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 190,
+    "ratio_updates": 791,
+    "ratio_batch_mse": 0.5735911340717017,
+    "proposal_version": "68c9e015c763b9db"
+  },
+  {
+    "round": 1,
+    "phase": "ratio_after_proposal",
+    "step": 199,
+    "ratio_updates": 800,
+    "ratio_batch_mse": 0.6172740037259065,
+    "proposal_version": "68c9e015c763b9db"
+  }
+]

@@ -1,0 +1,23 @@
+experiment: analytic
+output: outputs/analytic_pilot
+seed: 17
+beta: 1.0
+grid_size: 96
+steps: 2304
+burn_in: 256
+chains: 4
+reference_samples: 4096
+refresh_rates: [0.1, 0.3]
+planning: true
+planning_budgets: [16, 48]
+planning_replicates: 3
+no_movement_ablation: true
+training:
+  rounds: 2
+  hidden_dims: [32, 32, 32]
+  ratio_steps: 200
+  proposal_steps: 24
+  target_samples: 384
+  pairs_per_context: 1024
+  batch_size: 128
+  calibration_samples: 512

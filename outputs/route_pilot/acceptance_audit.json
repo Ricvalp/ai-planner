@@ -1,0 +1,193 @@
+{
+  "version": "heldout_accepted_flow_mc-v1",
+  "checkpoint_sha256": "979781279e79315f60c3de53fc76a738e0819a4da2e61a7fc88f849413bc98f7",
+  "n_pairs_per_context": 512,
+  "contexts": [
+    {
+      "n_pairs": 512,
+      "L_ratio": 6.968855900607432,
+      "L_ratio_standard_error": 1.0582631634174182,
+      "L_bal_signed": 0.3456003337416287,
+      "L_bal_standard_error": 0.06858642458293537,
+      "epsilon_a": 0.11040788444554647,
+      "epsilon_a_standard_error": 0.009078562804191857,
+      "abar": 0.6610206379259229,
+      "abar_standard_error": 0.019686742223103338,
+      "exact_acceptance": 0.6584514865200501,
+      "sqrt_L_ratio_point_estimate": 2.639859068323048,
+      "sqrt_abar_L_bal_over_2_point_estimate": 0.33797111790603,
+      "balance_bound_status": "defined plug-in estimate",
+      "refresh": [
+        {
+          "rho": 0.1,
+          "log_kappa": -14.622585092994045,
+          "kappa": 4.4616138839455575e-07,
+          "stationary_bias_bound_point_estimate": 222715.58809369252,
+          "log_stationary_bias_bound_point_estimate": 12.313650846726224,
+          "vacuous": true,
+          "interpretation": "Population formula evaluated at MC epsilon_a; not a certified bound."
+        },
+        {
+          "rho": 0.3,
+          "log_kappa": -13.523972804325936,
+          "kappa": 1.3384841651836666e-06,
+          "stationary_bias_bound_point_estimate": 57741.07839466103,
+          "log_stationary_bias_bound_point_estimate": 10.963724129777209,
+          "vacuous": true,
+          "interpretation": "Population formula evaluated at MC epsilon_a; not a certified bound."
+        }
+      ],
+      "interpretation": "Independent exact rejection sources and fresh proposals estimate population expectations. Finite-sample signed L_bal can be negative; it is preserved. These plug-in values are Monte Carlo diagnostics, not certified bounds on continuous TV or stationary bias.",
+      "context": "test_unchanged",
+      "target_id": "52e16d575c3fe10a0f702cfe",
+      "beta": 0.25,
+      "j_max": 3.08,
+      "seed": 200017,
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 1024,
+        "exact_cost_evaluations": 1024,
+        "simulator_steps": 184320,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 1024
+      },
+      "source_provenance": "First saved independent exact rejection samples; no best-of-N selection.",
+      "source_cost_evaluations": 512,
+      "proposed_cost_evaluations": 512,
+      "artifact": "acceptance_audits/test_unchanged.npz"
+    },
+    {
+      "n_pairs": 512,
+      "L_ratio": 8.012738422243697,
+      "L_ratio_standard_error": 1.3983934752462304,
+      "L_bal_signed": 0.37546000795727563,
+      "L_bal_standard_error": 0.07994362615869867,
+      "epsilon_a": 0.0997980355582222,
+      "epsilon_a_standard_error": 0.008614294409318504,
+      "abar": 0.6948785899344959,
+      "abar_standard_error": 0.018946699770134082,
+      "exact_acceptance": 0.6882569728337474,
+      "sqrt_L_ratio_point_estimate": 2.8306780852374747,
+      "sqrt_abar_L_bal_over_2_point_estimate": 0.3611780176769804,
+      "balance_bound_status": "defined plug-in estimate",
+      "refresh": [
+        {
+          "rho": 0.1,
+          "log_kappa": -14.622585092994045,
+          "kappa": 4.4616138839455575e-07,
+          "stationary_bias_bound_point_estimate": 201313.32369570876,
+          "log_stationary_bias_bound_point_estimate": 12.212617797692424,
+          "vacuous": true,
+          "interpretation": "Population formula evaluated at MC epsilon_a; not a certified bound."
+        },
+        {
+          "rho": 0.3,
+          "log_kappa": -13.523972804325936,
+          "kappa": 1.3384841651836666e-06,
+          "stationary_bias_bound_point_estimate": 52192.34318036894,
+          "log_stationary_bias_bound_point_estimate": 10.862691080743408,
+          "vacuous": true,
+          "interpretation": "Population formula evaluated at MC epsilon_a; not a certified bound."
+        }
+      ],
+      "interpretation": "Independent exact rejection sources and fresh proposals estimate population expectations. Finite-sample signed L_bal can be negative; it is preserved. These plug-in values are Monte Carlo diagnostics, not certified bounds on continuous TV or stationary bias.",
+      "context": "test_mild_correction",
+      "target_id": "55a07c6eb6cd9f30fc1d8f97",
+      "beta": 0.25,
+      "j_max": 3.08,
+      "seed": 200018,
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 1024,
+        "exact_cost_evaluations": 1024,
+        "simulator_steps": 184320,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 1024
+      },
+      "source_provenance": "First saved independent exact rejection samples; no best-of-N selection.",
+      "source_cost_evaluations": 512,
+      "proposed_cost_evaluations": 512,
+      "artifact": "acceptance_audits/test_mild_correction.npz"
+    },
+    {
+      "n_pairs": 512,
+      "L_ratio": 5.679661686726911,
+      "L_ratio_standard_error": 1.072799892631541,
+      "L_bal_signed": 0.22645561331411568,
+      "L_bal_standard_error": 0.05662486748526757,
+      "epsilon_a": 0.06988668612725235,
+      "epsilon_a_standard_error": 0.006197386620524478,
+      "abar": 0.6141754851160226,
+      "abar_standard_error": 0.02076270265687634,
+      "exact_acceptance": 0.549778932641361,
+      "sqrt_L_ratio_point_estimate": 2.3832040799576757,
+      "sqrt_abar_L_bal_over_2_point_estimate": 0.26370768491309027,
+      "balance_bound_status": "defined plug-in estimate",
+      "refresh": [
+        {
+          "rho": 0.1,
+          "log_kappa": -14.622585092994045,
+          "kappa": 4.4616138839455575e-07,
+          "stationary_bias_bound_point_estimate": 140975.93191749774,
+          "log_stationary_bias_bound_point_estimate": 11.856344459169566,
+          "vacuous": true,
+          "interpretation": "Population formula evaluated at MC epsilon_a; not a certified bound."
+        },
+        {
+          "rho": 0.3,
+          "log_kappa": -13.523972804325936,
+          "kappa": 1.3384841651836666e-06,
+          "stationary_bias_bound_point_estimate": 36549.31568231423,
+          "log_stationary_bias_bound_point_estimate": 10.50641774222055,
+          "vacuous": true,
+          "interpretation": "Population formula evaluated at MC epsilon_a; not a certified bound."
+        }
+      ],
+      "interpretation": "Independent exact rejection sources and fresh proposals estimate population expectations. Finite-sample signed L_bal can be negative; it is preserved. These plug-in values are Monte Carlo diagnostics, not certified bounds on continuous TV or stationary bias.",
+      "context": "test_route_invalidation",
+      "target_id": "5e2ea48e101d2dfaaab77104",
+      "beta": 0.25,
+      "j_max": 3.08,
+      "seed": 200019,
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 1024,
+        "exact_cost_evaluations": 1024,
+        "simulator_steps": 184320,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 1024
+      },
+      "source_provenance": "First saved independent exact rejection samples; no best-of-N selection.",
+      "source_cost_evaluations": 512,
+      "proposed_cost_evaluations": 512,
+      "artifact": "acceptance_audits/test_route_invalidation.npz"
+    }
+  ],
+  "counters": {
+    "transitions": 0,
+    "decoder_calls": 3072,
+    "exact_cost_evaluations": 3072,
+    "simulator_steps": 552960,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 3072
+  },
+  "compilation_seconds": 0.6264560502022505,
+  "warmed_execution_seconds": 0.021566130220890045,
+  "mechanism_audits_excluded": "Temperature and identity-decoder cases use exact acceptance only.",
+  "sampling_summaries_rederived": 30,
+  "sampling_summary_oracle_evaluations": 0,
+  "context_creation_steps": 0,
+  "context_restoration": "Immutable route snapshots restored from saved metadata; physical history not rerun."
+}

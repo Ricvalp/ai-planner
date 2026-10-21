@@ -1,0 +1,14 @@
+{
+  "figures": [
+    "target_and_prior",
+    "chain_and_region_occupancy",
+    "proposal_acceptance_replay",
+    "ratio_calibration",
+    "refresh_bias_tradeoff",
+    "finite_grid_bound_audit",
+    "sampler_vs_planner_summary"
+  ],
+  "html": "outputs/integration_evaluate/figures/replay.html",
+  "oracle_evaluations_during_render": 0,
+  "note": "Only saved measurements; replay controls never train or simulate. HTML display floats are rounded to six decimals; original NPZ precision is preserved."
+}

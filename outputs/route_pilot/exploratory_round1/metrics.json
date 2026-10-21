@@ -1,0 +1,140 @@
+[
+  {
+    "n_samples": 6144,
+    "burn_in_per_chain": 256,
+    "n_chains": 4,
+    "region_masses": [
+      0.42919921875,
+      0.57080078125
+    ],
+    "reference_region_masses": [
+      0.3728756387227358,
+      0.6271243612772637
+    ],
+    "region_mass_standard_error": [
+      0.05844549567498382,
+      0.05844549567498383
+    ],
+    "region_tv": 0.056323580027263925,
+    "coarse_tv": 0.1097842243804151,
+    "coarse_histogram_bins": 8,
+    "acceptance_rate": 0.6383463541666666,
+    "ess": 155.44268068493855,
+    "mode_switches": 155,
+    "accepted_movement": 0.03009001132085723,
+    "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+    "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+    "context": "test_unchanged",
+    "method": "no_movement",
+    "beta": 0.25,
+    "rho": 0.0,
+    "compilation_seconds": 0.1643070336431265,
+    "warmed_execution_seconds": 0.05331910029053688,
+    "transitions": 7168,
+    "decoder_calls": 7172,
+    "exact_cost_evaluations": 0,
+    "simulator_steps": 0,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 0,
+    "coordinate_ess": [
+      157.81877001162263,
+      535.9984389838324
+    ],
+    "accepted_movement_space": "target.features(decoded candidate), scale 0.5"
+  },
+  {
+    "n_samples": 6144,
+    "burn_in_per_chain": 256,
+    "n_chains": 4,
+    "region_masses": [
+      0.4708658854166667,
+      0.5291341145833334
+    ],
+    "reference_region_masses": [
+      0.4028986852321976,
+      0.5971013147678048
+    ],
+    "region_mass_standard_error": [
+      0.045869088916495104,
+      0.04586908891649509
+    ],
+    "region_tv": 0.06796720018447028,
+    "coarse_tv": 0.12162673027971994,
+    "coarse_histogram_bins": 8,
+    "acceptance_rate": 0.6515299479166666,
+    "ess": 172.94927945013228,
+    "mode_switches": 172,
+    "accepted_movement": 0.03042408935666453,
+    "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+    "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+    "context": "test_mild_correction",
+    "method": "no_movement",
+    "beta": 0.25,
+    "rho": 0.0,
+    "compilation_seconds": 0.16289610788226128,
+    "warmed_execution_seconds": 0.05551149137318134,
+    "transitions": 7168,
+    "decoder_calls": 7172,
+    "exact_cost_evaluations": 0,
+    "simulator_steps": 0,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 0,
+    "coordinate_ess": [
+      160.515282529414,
+      549.8531576278949
+    ],
+    "accepted_movement_space": "target.features(decoded candidate), scale 0.5"
+  },
+  {
+    "n_samples": 6144,
+    "burn_in_per_chain": 256,
+    "n_chains": 4,
+    "region_masses": [
+      0.7556966145833334,
+      0.24430338541666666
+    ],
+    "reference_region_masses": [
+      0.9999866865657575,
+      1.3313434243402073e-05
+    ],
+    "region_mass_standard_error": [
+      0.05876973415174593,
+      0.05876973415174592
+    ],
+    "region_tv": 0.2442900719824237,
+    "coarse_tv": 0.2526397998179266,
+    "coarse_histogram_bins": 8,
+    "acceptance_rate": 0.5701497395833334,
+    "ess": 68.29706530431483,
+    "mode_switches": 23,
+    "accepted_movement": 0.012534421723273287,
+    "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+    "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+    "context": "test_route_invalidation",
+    "method": "no_movement",
+    "beta": 0.25,
+    "rho": 0.0,
+    "compilation_seconds": 0.17338266596198082,
+    "warmed_execution_seconds": 0.0532999262213707,
+    "transitions": 7168,
+    "decoder_calls": 7172,
+    "exact_cost_evaluations": 0,
+    "simulator_steps": 0,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 0,
+    "coordinate_ess": [
+      73.20213863151652,
+      467.14671975196705
+    ],
+    "accepted_movement_space": "target.features(decoded candidate), scale 0.5"
+  }
+]

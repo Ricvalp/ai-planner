@@ -1,0 +1,602 @@
+{
+  "metrics": [
+    {
+      "n_samples": 96,
+      "burn_in_per_chain": 16,
+      "n_chains": 2,
+      "region_masses": [
+        0.5520833333333334,
+        0.4479166666666667
+      ],
+      "reference_region_masses": [
+        0.5000000000000001,
+        0.4999999999999999
+      ],
+      "region_mass_standard_error": [
+        0.03125,
+        0.03125
+      ],
+      "region_tv": 0.05208333333333323,
+      "coarse_tv": 0.5962024867329585,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 1.0,
+      "ess": 91.21543408360128,
+      "coordinate_ess": [
+        96.0,
+        81.37337652438862
+      ],
+      "mode_switches": 51,
+      "accepted_movement": 0.7674445029754812,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two",
+      "method": "prior",
+      "beta": 1.0,
+      "rho": 0.0,
+      "compilation_seconds": 0.1393731962889433,
+      "warmed_execution_seconds": 0.0012491699308156967,
+      "transitions": 128,
+      "decoder_calls": 130,
+      "exact_cost_evaluations": 0,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    {
+      "n_samples": 96,
+      "burn_in_per_chain": 16,
+      "n_chains": 2,
+      "region_masses": [
+        0.5,
+        0.5
+      ],
+      "reference_region_masses": [
+        0.5000000000000001,
+        0.4999999999999999
+      ],
+      "region_mass_standard_error": [
+        0.5,
+        0.5
+      ],
+      "region_tv": 1.1102230246251565e-16,
+      "coarse_tv": 0.38677124706703103,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.5,
+      "ess": 0.0,
+      "coordinate_ess": [
+        14.715629065463052,
+        12.206184716461951
+      ],
+      "mode_switches": 0,
+      "accepted_movement": 0.05713071820901119,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two",
+      "method": "rw",
+      "beta": 1.0,
+      "rho": 0.0,
+      "compilation_seconds": 0.19486968778073788,
+      "warmed_execution_seconds": 0.0012618359178304672,
+      "transitions": 128,
+      "decoder_calls": 130,
+      "exact_cost_evaluations": 130,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    {
+      "n_samples": 96,
+      "burn_in_per_chain": 16,
+      "n_chains": 2,
+      "region_masses": [
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      "reference_region_masses": [
+        0.5000000000000001,
+        0.4999999999999999
+      ],
+      "region_mass_standard_error": [
+        0.0833333333333333,
+        0.08333333333333334
+      ],
+      "region_tv": 0.16666666666666655,
+      "coarse_tv": 0.4994332702692152,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.6770833333333334,
+      "ess": 25.81395606628854,
+      "coordinate_ess": [
+        19.189172782609102,
+        21.958361192278588
+      ],
+      "mode_switches": 17,
+      "accepted_movement": 0.2615480733107342,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two",
+      "method": "pcn",
+      "beta": 1.0,
+      "rho": 0.0,
+      "compilation_seconds": 0.1589585840702057,
+      "warmed_execution_seconds": 0.001429172232747078,
+      "transitions": 128,
+      "decoder_calls": 130,
+      "exact_cost_evaluations": 130,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    {
+      "n_samples": 96,
+      "burn_in_per_chain": 16,
+      "n_chains": 2,
+      "region_masses": [
+        0.5,
+        0.5
+      ],
+      "reference_region_masses": [
+        0.5000000000000001,
+        0.4999999999999999
+      ],
+      "region_mass_standard_error": [
+        0.5,
+        0.5
+      ],
+      "region_tv": 1.1102230246251565e-16,
+      "coarse_tv": 0.9556910732040156,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.9895833333333334,
+      "ess": 0.0,
+      "coordinate_ess": [
+        19.005434842391075,
+        11.453613210636199
+      ],
+      "mode_switches": 0,
+      "accepted_movement": 0.000273464807871264,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two",
+      "method": "high_locality",
+      "beta": 1.0,
+      "rho": 0.0,
+      "compilation_seconds": 0.15972925908863544,
+      "warmed_execution_seconds": 0.0012272074818611145,
+      "transitions": 128,
+      "decoder_calls": 130,
+      "exact_cost_evaluations": 130,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    {
+      "n_samples": 96,
+      "burn_in_per_chain": 16,
+      "n_chains": 2,
+      "region_masses": [
+        0.4791666666666667,
+        0.5208333333333334
+      ],
+      "reference_region_masses": [
+        0.5000000000000001,
+        0.4999999999999999
+      ],
+      "region_mass_standard_error": [
+        0.10416666666666669,
+        0.10416666666666664
+      ],
+      "region_tv": 0.020833333333333454,
+      "coarse_tv": 0.43137703175669917,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.40625,
+      "ess": 10.751674879029679,
+      "coordinate_ess": [
+        11.104638511932626,
+        20.382983297838738
+      ],
+      "mode_switches": 11,
+      "accepted_movement": 0.15042618708551128,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two",
+      "method": "learned_exact",
+      "beta": 1.0,
+      "rho": 0.0,
+      "compilation_seconds": 0.20187759026885033,
+      "warmed_execution_seconds": 0.001330917701125145,
+      "transitions": 128,
+      "decoder_calls": 130,
+      "exact_cost_evaluations": 130,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    {
+      "n_samples": 96,
+      "burn_in_per_chain": 16,
+      "n_chains": 2,
+      "region_masses": [
+        0.53125,
+        0.46875
+      ],
+      "reference_region_masses": [
+        0.5000000000000001,
+        0.4999999999999999
+      ],
+      "region_mass_standard_error": [
+        0.05208333333333334,
+        0.05208333333333334
+      ],
+      "region_tv": 0.03124999999999989,
+      "coarse_tv": 0.606150564697042,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.96875,
+      "ess": 26.441260229950515,
+      "coordinate_ess": [
+        23.770585903457782,
+        17.228389013007103
+      ],
+      "mode_switches": 27,
+      "accepted_movement": 0.3459553199575209,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two",
+      "method": "learned",
+      "beta": 1.0,
+      "rho": 0.0,
+      "compilation_seconds": 0.1307594981044531,
+      "warmed_execution_seconds": 0.0011501703411340714,
+      "transitions": 128,
+      "decoder_calls": 130,
+      "exact_cost_evaluations": 0,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    {
+      "n_samples": 96,
+      "burn_in_per_chain": 16,
+      "n_chains": 2,
+      "region_masses": [
+        0.4479166666666667,
+        0.5520833333333334
+      ],
+      "reference_region_masses": [
+        0.5000000000000001,
+        0.4999999999999999
+      ],
+      "region_mass_standard_error": [
+        0.03125,
+        0.03125
+      ],
+      "region_tv": 0.052083333333333454,
+      "coarse_tv": 0.502738847196017,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.90625,
+      "ess": 16.01964310917396,
+      "coordinate_ess": [
+        13.071137706347251,
+        21.11749668190471
+      ],
+      "mode_switches": 22,
+      "accepted_movement": 0.3491111368894331,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two",
+      "method": "refresh_0.1",
+      "beta": 1.0,
+      "rho": 0.1,
+      "compilation_seconds": 0.22444497048854828,
+      "warmed_execution_seconds": 0.0014360751956701279,
+      "transitions": 128,
+      "decoder_calls": 130,
+      "exact_cost_evaluations": 20,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 10,
+      "refresh_proposed_evaluations": 10,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    {
+      "n_samples": 96,
+      "burn_in_per_chain": 16,
+      "n_chains": 2,
+      "region_masses": [
+        0.08333333333333333,
+        0.9166666666666666
+      ],
+      "reference_region_masses": [
+        0.5000000000000001,
+        0.4999999999999999
+      ],
+      "region_mass_standard_error": [
+        0.041666666666666664,
+        0.041666666666666685
+      ],
+      "region_tv": 0.41666666666666674,
+      "coarse_tv": 0.8622430797876767,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.5520833333333334,
+      "ess": 40.225715736650415,
+      "coordinate_ess": [
+        8.860763198316507,
+        13.705183591887144
+      ],
+      "mode_switches": 7,
+      "accepted_movement": 0.12096905248596745,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two",
+      "method": "injected_error",
+      "beta": 1.0,
+      "rho": 0.0,
+      "compilation_seconds": 0.12877791561186314,
+      "warmed_execution_seconds": 0.0009418986737728119,
+      "transitions": 128,
+      "decoder_calls": 130,
+      "exact_cost_evaluations": 0,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    }
+  ],
+  "planning": [
+    {
+      "cost": 3.7543338013027823,
+      "metrics": {
+        "cost": 3.7543338013027823
+      },
+      "fallback": false,
+      "best_index": 1,
+      "counters": {
+        "transitions": 2,
+        "decoder_calls": 3,
+        "exact_cost_evaluations": 4,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 1,
+        "audit_evaluations": 0
+      },
+      "compile_seconds": 0.0943776573985815,
+      "compilation_seconds": 0.0943776573985815,
+      "warmed_execution_seconds": 0.024422498419880867,
+      "attempts": 2,
+      "attempt_cap": 32,
+      "budget_fill_evaluations": 0,
+      "transitions": 2,
+      "decoder_calls": 3,
+      "exact_cost_evaluations": 4,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 1,
+      "audit_evaluations": 0,
+      "context": "two",
+      "method": "prior",
+      "budget": 4,
+      "replicate": 0
+    },
+    {
+      "cost": 4.143750162411366,
+      "metrics": {
+        "cost": 4.143750162411366
+      },
+      "fallback": false,
+      "best_index": 2,
+      "counters": {
+        "transitions": 2,
+        "decoder_calls": 3,
+        "exact_cost_evaluations": 4,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 1,
+        "audit_evaluations": 0
+      },
+      "compile_seconds": 0.2432122938334942,
+      "compilation_seconds": 0.2432122938334942,
+      "warmed_execution_seconds": 0.0038559269160032272,
+      "attempts": 2,
+      "attempt_cap": 32,
+      "budget_fill_evaluations": 0,
+      "transitions": 2,
+      "decoder_calls": 3,
+      "exact_cost_evaluations": 4,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 1,
+      "audit_evaluations": 0,
+      "context": "two",
+      "method": "rw",
+      "budget": 4,
+      "replicate": 0
+    },
+    {
+      "cost": 1.8523052332655514,
+      "metrics": {
+        "cost": 1.8523052332655514
+      },
+      "fallback": false,
+      "best_index": 2,
+      "counters": {
+        "transitions": 2,
+        "decoder_calls": 3,
+        "exact_cost_evaluations": 4,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 1,
+        "audit_evaluations": 0
+      },
+      "compile_seconds": 0.23503844998776913,
+      "compilation_seconds": 0.23503844998776913,
+      "warmed_execution_seconds": 0.0037819556891918182,
+      "attempts": 2,
+      "attempt_cap": 32,
+      "budget_fill_evaluations": 0,
+      "transitions": 2,
+      "decoder_calls": 3,
+      "exact_cost_evaluations": 4,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 1,
+      "audit_evaluations": 0,
+      "context": "two",
+      "method": "pcn",
+      "budget": 4,
+      "replicate": 0
+    },
+    {
+      "cost": 1.841312323537785,
+      "metrics": {
+        "cost": 1.841312323537785
+      },
+      "fallback": false,
+      "best_index": 2,
+      "counters": {
+        "transitions": 2,
+        "decoder_calls": 3,
+        "exact_cost_evaluations": 4,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 1,
+        "audit_evaluations": 0
+      },
+      "compile_seconds": 0.26861209236085415,
+      "compilation_seconds": 0.26861209236085415,
+      "warmed_execution_seconds": 0.003822891041636467,
+      "attempts": 2,
+      "attempt_cap": 32,
+      "budget_fill_evaluations": 0,
+      "transitions": 2,
+      "decoder_calls": 3,
+      "exact_cost_evaluations": 4,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 1,
+      "audit_evaluations": 0,
+      "context": "two",
+      "method": "learned_exact",
+      "budget": 4,
+      "replicate": 0
+    },
+    {
+      "cost": 1.2641372613812782,
+      "metrics": {
+        "cost": 1.2641372613812782
+      },
+      "fallback": false,
+      "best_index": 1,
+      "counters": {
+        "transitions": 6,
+        "decoder_calls": 7,
+        "exact_cost_evaluations": 4,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 1,
+        "audit_evaluations": 0
+      },
+      "compile_seconds": 0.2041369080543518,
+      "compilation_seconds": 0.2041369080543518,
+      "warmed_execution_seconds": 0.00618869811296463,
+      "attempts": 6,
+      "attempt_cap": 32,
+      "budget_fill_evaluations": 1,
+      "transitions": 6,
+      "decoder_calls": 7,
+      "exact_cost_evaluations": 4,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 1,
+      "audit_evaluations": 0,
+      "context": "two",
+      "method": "learned",
+      "budget": 4,
+      "replicate": 0
+    },
+    {
+      "cost": 1.2641372613812782,
+      "metrics": {
+        "cost": 1.2641372613812782
+      },
+      "fallback": false,
+      "best_index": 1,
+      "counters": {
+        "transitions": 6,
+        "decoder_calls": 7,
+        "exact_cost_evaluations": 4,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 1,
+        "audit_evaluations": 0
+      },
+      "compile_seconds": 0.33649703674018383,
+      "compilation_seconds": 0.33649703674018383,
+      "warmed_execution_seconds": 0.005550865083932877,
+      "attempts": 6,
+      "attempt_cap": 32,
+      "budget_fill_evaluations": 1,
+      "transitions": 6,
+      "decoder_calls": 7,
+      "exact_cost_evaluations": 4,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 1,
+      "audit_evaluations": 0,
+      "context": "two",
+      "method": "refresh_0.1",
+      "budget": 4,
+      "replicate": 0
+    }
+  ]
+}

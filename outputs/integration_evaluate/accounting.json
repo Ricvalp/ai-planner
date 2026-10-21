@@ -1,0 +1,64 @@
+{
+  "sampling": {
+    "transitions": 1024,
+    "decoder_calls": 1040,
+    "exact_cost_evaluations": 540,
+    "simulator_steps": 0,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 10,
+    "refresh_proposed_evaluations": 10,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 0
+  },
+  "audit": {
+    "transitions": 0,
+    "decoder_calls": 3449,
+    "exact_cost_evaluations": 3449,
+    "simulator_steps": 0,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 3449
+  },
+  "training": {},
+  "source_checkpoint_training": {
+    "transitions": 0,
+    "decoder_calls": 81664,
+    "exact_cost_evaluations": 69376,
+    "simulator_steps": 0,
+    "training_oracle_evaluations": 69376,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 0
+  },
+  "training_calibration": {
+    "transitions": 0,
+    "decoder_calls": 2432,
+    "exact_cost_evaluations": 2432,
+    "simulator_steps": 0,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 2432
+  },
+  "ablation_training": {},
+  "ablation_calibration": {},
+  "planning": {
+    "transitions": 20,
+    "decoder_calls": 26,
+    "exact_cost_evaluations": 24,
+    "simulator_steps": 0,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 6,
+    "audit_evaluations": 0
+  },
+  "physical_context_creation_steps": 0,
+  "physical_execution_steps": 0,
+  "total_elapsed_seconds": 6.515823543071747,
+  "note": "Audit costs excluded from deployment budgets but charged separately. JIT compilation separately timed."
+}

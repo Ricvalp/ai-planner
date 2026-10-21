@@ -1,0 +1,1161 @@
+{
+  "kind": "analytic",
+  "seed": 17,
+  "python": "3.11.15",
+  "platform": "Linux-6.17.0-1025-oem-x86_64-with-glibc2.39",
+  "packages": {
+    "jax": "0.6.2",
+    "jaxlib": "0.6.2",
+    "flax": "0.10.6",
+    "optax": "0.2.5",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "devices": [
+    "TFRT_CPU_0"
+  ],
+  "contexts": [
+    {
+      "name": "two",
+      "beta": 1.0,
+      "target_id": "fde18af88d8bd70cbfed",
+      "j_max": 4.199705077879927,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "test",
+      "definition": {
+        "beta": 1.0,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "two",
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    },
+    {
+      "name": "rare",
+      "beta": 1.0,
+      "target_id": "e5727bb9ba2584bbd235",
+      "j_max": 4.199705077879927,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "test",
+      "definition": {
+        "beta": 1.0,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "rare",
+          "weights": [
+            0.9,
+            0.1
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    },
+    {
+      "name": "four",
+      "beta": 1.0,
+      "target_id": "d2c99494b360d6960be9",
+      "j_max": 4.199705077879927,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "test",
+      "definition": {
+        "beta": 1.0,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.5
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.5
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.5
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.5
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.5
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.5
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.5
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.5
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "four",
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    },
+    {
+      "name": "rotated",
+      "beta": 1.0,
+      "target_id": "35b4e895d8f174e0fd7b",
+      "j_max": 4.199705077879927,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "test",
+      "definition": {
+        "beta": 1.0,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.5
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.5
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.5
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.5
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.5
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.5
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.5
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.5
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.036484060536782846
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.017417480419012546
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.017417480419012542
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.02294093946321716
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.036484060536782846
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": -0.017417480419012546
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": -0.017417480419012542
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.02294093946321716
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.036484060536782846
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.017417480419012546
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.017417480419012542
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.02294093946321716
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.036484060536782846
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": -0.017417480419012546
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": -0.017417480419012542
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.02294093946321716
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "rotated",
+          "weights": [
+            0.25,
+            0.25,
+            0.25,
+            0.25
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    },
+    {
+      "name": "constant",
+      "beta": 1.0,
+      "target_id": "c861389c8de17dd465b3",
+      "j_max": 0.0,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "test",
+      "definition": {
+        "beta": 1.0,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": true,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "constant",
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    },
+    {
+      "name": "two_beta_0.6",
+      "beta": 0.6,
+      "target_id": "fd1acf659603b4afb205",
+      "j_max": 4.199705077879927,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "mechanism_audit",
+      "coordinate_label": "Decoded descriptor y = Gaussian CDF coefficient u",
+      "definition": {
+        "beta": 0.6,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "two_beta_0.6",
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    },
+    {
+      "name": "two_beta_1",
+      "beta": 1.0,
+      "target_id": "3ed7f135cccd59aae45f",
+      "j_max": 4.199705077879927,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "mechanism_audit",
+      "coordinate_label": "Decoded descriptor y = Gaussian CDF coefficient u",
+      "definition": {
+        "beta": 1.0,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "two_beta_1",
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    },
+    {
+      "name": "two_beta_1.6",
+      "beta": 1.6,
+      "target_id": "8b3ffc1e1c6c0769d557",
+      "j_max": 4.199705077879927,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "mechanism_audit",
+      "coordinate_label": "Decoded descriptor y = Gaussian CDF coefficient u",
+      "definition": {
+        "beta": 1.6,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "two_beta_1.6",
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    },
+    {
+      "name": "two_identity_decoder",
+      "beta": 1.0,
+      "target_id": "b321aa553f5cc8417b6e",
+      "j_max": 4.199705077879927,
+      "decoder": "identity_v1",
+      "split": "mechanism_audit",
+      "coordinate_label": "Gaussian CDF coefficient u (identity-decoded output is z)",
+      "definition": {
+        "beta": 1.0,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "two_identity_decoder",
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "identity_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    }
+  ],
+  "training_context_ids": [
+    "355d1a8eff50a6747210",
+    "8c2133fed6d5a96fdab4",
+    "6ed107e9e54378bc262f",
+    "22b455d0e10dae45de6d"
+  ],
+  "validation_context_ids": [
+    "e6c764feffe216b96e80"
+  ],
+  "warning": "One development seed. Engineered frozen decoders; no DSBM or real robotics claim.",
+  "recovery": "Original process stopped at identity quadrature because it retained an older module in memory. Saved training, sampling, reference, finite-grid and three temperature artifacts were reused. Rejection batch counts were reconstructed from Gaussian PRNG draws only, without new cost evaluations.",
+  "no_movement_ablation": {
+    "matched_training_rounds": 2,
+    "matched_ratio_updates": 800,
+    "proposal_updates": 0,
+    "initialization": "same initial pCN proposal",
+    "exploratory_round1": "exploratory_round1/",
+    "note": "Fresh q-dependent pair datasets each fit; equal ratio-update effort, no proposal movement updates"
+  }
+}

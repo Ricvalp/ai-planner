@@ -1,0 +1,136 @@
+{
+  "kind": "analytic",
+  "seed": 5,
+  "python": "3.11.15",
+  "platform": "Linux-6.17.0-1025-oem-x86_64-with-glibc2.39",
+  "packages": {
+    "jax": "0.6.2",
+    "jaxlib": "0.6.2",
+    "flax": "0.10.6",
+    "optax": "0.2.5",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3"
+  },
+  "devices": [
+    "TFRT_CPU_0"
+  ],
+  "contexts": [
+    {
+      "name": "two",
+      "beta": 1.0,
+      "target_id": "fde18af88d8bd70cbfed",
+      "j_max": 4.199705077879927,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "test",
+      "definition": {
+        "beta": 1.0,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "two",
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    }
+  ],
+  "training_context_ids": [
+    "355d1a8eff50a6747210",
+    "8c2133fed6d5a96fdab4",
+    "6ed107e9e54378bc262f",
+    "22b455d0e10dae45de6d"
+  ],
+  "validation_context_ids": [
+    "e6c764feffe216b96e80"
+  ],
+  "warning": "One development seed. Engineered frozen decoders; no DSBM or real robotics claim."
+}

@@ -1,0 +1,845 @@
+{
+  "metrics": [
+    {
+      "n_samples": 3072,
+      "burn_in_per_chain": 256,
+      "n_chains": 4,
+      "region_masses": [
+        0.5221354166666666,
+        0.4778645833333333
+      ],
+      "reference_region_masses": [
+        0.49999999999999956,
+        0.4999999999999994
+      ],
+      "region_mass_standard_error": [
+        0.043129565437016404,
+        0.0431295654370164
+      ],
+      "region_tv": 0.022135416666666574,
+      "coarse_tv": 0.08096728756815,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.2490234375,
+      "ess": 117.63140040089883,
+      "mode_switches": 130,
+      "accepted_movement": 0.07136626922795461,
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two_beta_0.6",
+      "method": "pcn",
+      "beta": 0.6,
+      "rho": 0.0,
+      "coordinate_label": "Decoded descriptor y = Gaussian CDF coefficient u",
+      "decoder": "analytic_2d_cdf_v1",
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "mechanism": "temperature",
+      "exact_only": true,
+      "transitions": 4096,
+      "decoder_calls": 4100,
+      "exact_cost_evaluations": 4100,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0,
+      "compilation_seconds": null,
+      "warmed_execution_seconds": null,
+      "timing_note": "Not persisted before interrupted run; unavailable",
+      "coordinate_ess": [
+        116.55465132322283,
+        497.13120101047366
+      ]
+    },
+    {
+      "n_samples": 3072,
+      "burn_in_per_chain": 256,
+      "n_chains": 4,
+      "region_masses": [
+        0.4736328125,
+        0.5263671875
+      ],
+      "reference_region_masses": [
+        0.4999999999999976,
+        0.49999999999999767
+      ],
+      "region_mass_standard_error": [
+        0.013035744500227165,
+        0.013035744500227153
+      ],
+      "region_tv": 0.026367187499999972,
+      "coarse_tv": 0.07174949193652948,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.490234375,
+      "ess": 239.859017732956,
+      "mode_switches": 325,
+      "accepted_movement": 0.17867931102544723,
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two_beta_1",
+      "method": "pcn",
+      "beta": 1.0,
+      "rho": 0.0,
+      "coordinate_label": "Decoded descriptor y = Gaussian CDF coefficient u",
+      "decoder": "analytic_2d_cdf_v1",
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "mechanism": "temperature",
+      "exact_only": true,
+      "transitions": 4096,
+      "decoder_calls": 4100,
+      "exact_cost_evaluations": 4100,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0,
+      "compilation_seconds": null,
+      "warmed_execution_seconds": null,
+      "timing_note": "Not persisted before interrupted run; unavailable",
+      "coordinate_ess": [
+        207.76605455738473,
+        491.8389654231712
+      ]
+    },
+    {
+      "n_samples": 3072,
+      "burn_in_per_chain": 256,
+      "n_chains": 4,
+      "region_masses": [
+        0.5296223958333334,
+        0.4703776041666667
+      ],
+      "reference_region_masses": [
+        0.5000000000000002,
+        0.5000000000000001
+      ],
+      "region_mass_standard_error": [
+        0.02699207025152753,
+        0.026992070251527514
+      ],
+      "region_tv": 0.029622395833333287,
+      "coarse_tv": 0.07258759981791488,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.6578776041666666,
+      "ess": 377.15679862329256,
+      "mode_switches": 420,
+      "accepted_movement": 0.24250501031464547,
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two_beta_1.6",
+      "method": "pcn",
+      "beta": 1.6,
+      "rho": 0.0,
+      "coordinate_label": "Decoded descriptor y = Gaussian CDF coefficient u",
+      "decoder": "analytic_2d_cdf_v1",
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "mechanism": "temperature",
+      "exact_only": true,
+      "transitions": 4096,
+      "decoder_calls": 4100,
+      "exact_cost_evaluations": 4100,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0,
+      "compilation_seconds": null,
+      "warmed_execution_seconds": null,
+      "timing_note": "Not persisted before interrupted run; unavailable",
+      "coordinate_ess": [
+        319.04866042084086,
+        529.5210434323809
+      ]
+    },
+    {
+      "n_samples": 3072,
+      "burn_in_per_chain": 256,
+      "n_chains": 4,
+      "region_masses": [
+        0.4899088541666667,
+        0.5100911458333334
+      ],
+      "reference_region_masses": [
+        0.5000000000000016,
+        0.5000000000000014
+      ],
+      "region_mass_standard_error": [
+        0.023940723969006362,
+        0.023940723969006383
+      ],
+      "region_tv": 0.010091145833333398,
+      "coarse_tv": 0.07966965994224746,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.4739583333333333,
+      "ess": 320.0571917521602,
+      "mode_switches": 376,
+      "accepted_movement": 0.2771451753980548,
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two_identity_decoder",
+      "method": "pcn",
+      "beta": 1.0,
+      "rho": 0.0,
+      "coordinate_label": "Gaussian CDF coefficient u (identity-decoded output is z)",
+      "decoder": "identity_v1",
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "mechanism": "identity_decoder",
+      "exact_only": true,
+      "compilation_seconds": 0.17953618057072163,
+      "warmed_execution_seconds": 0.02162107639014721,
+      "transitions": 4096,
+      "decoder_calls": 4100,
+      "exact_cost_evaluations": 4100,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0,
+      "coordinate_ess": [
+        325.74698624709964,
+        412.59993558302654
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "name": "two_beta_0.6",
+      "beta": 0.6,
+      "target_id": "fd1acf659603b4afb205",
+      "j_max": 4.199705077879927,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "mechanism_audit",
+      "coordinate_label": "Decoded descriptor y = Gaussian CDF coefficient u",
+      "definition": {
+        "beta": 0.6,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "two_beta_0.6",
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    },
+    {
+      "name": "two_beta_1",
+      "beta": 1.0,
+      "target_id": "3ed7f135cccd59aae45f",
+      "j_max": 4.199705077879927,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "mechanism_audit",
+      "coordinate_label": "Decoded descriptor y = Gaussian CDF coefficient u",
+      "definition": {
+        "beta": 1.0,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "two_beta_1",
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    },
+    {
+      "name": "two_beta_1.6",
+      "beta": 1.6,
+      "target_id": "8b3ffc1e1c6c0769d557",
+      "j_max": 4.199705077879927,
+      "decoder": "analytic_2d_cdf_v1",
+      "split": "mechanism_audit",
+      "coordinate_label": "Decoded descriptor y = Gaussian CDF coefficient u",
+      "definition": {
+        "beta": 1.6,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "two_beta_1.6",
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "analytic_2d_cdf_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    },
+    {
+      "name": "two_identity_decoder",
+      "beta": 1.0,
+      "target_id": "b321aa553f5cc8417b6e",
+      "j_max": 4.199705077879927,
+      "decoder": "identity_v1",
+      "split": "mechanism_audit",
+      "coordinate_label": "Gaussian CDF coefficient u (identity-decoded output is z)",
+      "definition": {
+        "beta": 1.0,
+        "context": {
+          "beta0": 1.0,
+          "centers": [
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": -0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ],
+            [
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.52
+              },
+              {
+                "shape": [],
+                "dtype": "float64",
+                "values": 0.0
+              }
+            ]
+          ],
+          "constant": false,
+          "covariances": [
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ],
+            [
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.028900000000000006
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                }
+              ],
+              [
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.0
+                },
+                {
+                  "shape": [],
+                  "dtype": "float64",
+                  "values": 0.04409999999999999
+                }
+              ]
+            ]
+          ],
+          "eps_floor": 0.015,
+          "name": "two_identity_decoder",
+          "weights": [
+            0.5,
+            0.5
+          ]
+        },
+        "cost_version": "floor_gaussian_energy_v1",
+        "decoder": {
+          "noise_dim": 2,
+          "version": "identity_v1"
+        },
+        "simulator_steps_per_cost": 0
+      }
+    }
+  ],
+  "reference_checks": [
+    {
+      "context": "two_beta_0.6",
+      "n": 1024,
+      "exact_only": true,
+      "normalizer": 0.02382820719909939,
+      "refined_normalizer": 0.02382805192571345,
+      "region_mass_grid_difference": 2.275957200481571e-15,
+      "reference_region_masses": [
+        0.5000000000000018,
+        0.5000000000000017
+      ],
+      "rejection_region_masses": [
+        0.5029296875,
+        0.4970703125
+      ],
+      "rejection_standard_error": [
+        0.015625,
+        0.015625
+      ],
+      "rejection_max_standardized_error": 0.18750000000010658,
+      "chain_region_masses": [
+        0.5221354166666666,
+        0.4778645833333333
+      ],
+      "chain_region_standard_error": [
+        0.043129565437016404,
+        0.0431295654370164
+      ],
+      "chain_ess": 117.63140040089883,
+      "provenance": "independent exact rejection; compared to finite exact-kernel chains",
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 44544,
+        "exact_cost_evaluations": 44544,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 0
+      }
+    },
+    {
+      "context": "two_beta_1",
+      "n": 1024,
+      "exact_only": true,
+      "normalizer": 0.07010660211507161,
+      "refined_normalizer": 0.07010538774771759,
+      "region_mass_grid_difference": 1.4988010832439613e-15,
+      "reference_region_masses": [
+        0.4999999999999991,
+        0.4999999999999991
+      ],
+      "rejection_region_masses": [
+        0.509765625,
+        0.490234375
+      ],
+      "rejection_standard_error": [
+        0.015625,
+        0.015625
+      ],
+      "rejection_max_standardized_error": 0.6250000000000568,
+      "chain_region_masses": [
+        0.4736328125,
+        0.5263671875
+      ],
+      "chain_region_standard_error": [
+        0.013035744500227165,
+        0.013035744500227153
+      ],
+      "chain_ess": 239.859017732956,
+      "provenance": "independent exact rejection; compared to finite exact-kernel chains",
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 14336,
+        "exact_cost_evaluations": 14336,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 0
+      }
+    },
+    {
+      "context": "two_beta_1.6",
+      "n": 1024,
+      "exact_only": true,
+      "normalizer": 0.1599786993537577,
+      "refined_normalizer": 0.15997547362459688,
+      "region_mass_grid_difference": 1.7763568394002505e-15,
+      "reference_region_masses": [
+        0.5000000000000018,
+        0.5000000000000019
+      ],
+      "rejection_region_masses": [
+        0.4853515625,
+        0.5146484375
+      ],
+      "rejection_standard_error": [
+        0.015625,
+        0.015625
+      ],
+      "rejection_max_standardized_error": 0.9375000000001137,
+      "chain_region_masses": [
+        0.5296223958333334,
+        0.4703776041666667
+      ],
+      "chain_region_standard_error": [
+        0.02699207025152753,
+        0.026992070251527514
+      ],
+      "chain_ess": 377.15679862329256,
+      "provenance": "independent exact rejection; compared to finite exact-kernel chains",
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 6144,
+        "exact_cost_evaluations": 6144,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 0
+      }
+    },
+    {
+      "context": "two_identity_decoder",
+      "n": 1024,
+      "exact_only": true,
+      "normalizer": 0.044749484733607924,
+      "refined_normalizer": 0.044749484733607965,
+      "region_mass_grid_difference": 1.2434497875801753e-14,
+      "reference_region_masses": [
+        0.4999999999999891,
+        0.49999999999998906
+      ],
+      "rejection_region_masses": [
+        0.5234375,
+        0.4765625
+      ],
+      "rejection_standard_error": [
+        0.015625,
+        0.015624999999999998
+      ],
+      "rejection_max_standardized_error": 1.5000000000006963,
+      "chain_region_masses": [
+        0.4899088541666667,
+        0.5100911458333334
+      ],
+      "chain_region_standard_error": [
+        0.023940723969006362,
+        0.023940723969006383
+      ],
+      "chain_ess": 320.0571917521602,
+      "provenance": "independent exact rejection; compared to finite exact-kernel chains",
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 22016,
+        "exact_cost_evaluations": 22016,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 0
+      }
+    }
+  ],
+  "counters": {
+    "sampling": {
+      "transitions": 16384,
+      "decoder_calls": 16400,
+      "exact_cost_evaluations": 16400,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    "audit": {
+      "transitions": 0,
+      "decoder_calls": 168960,
+      "exact_cost_evaluations": 168960,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 168960
+    }
+  },
+  "total_elapsed_seconds": 1.3873242996633053,
+  "reused_contexts": [
+    "two_beta_0.6",
+    "two_beta_1",
+    "two_beta_1.6"
+  ],
+  "timing_scope": "This invocation only; any reused stage's unsaved original timing is unavailable",
+  "temperature_note": "Exact pCN only. No fixed-temperature ratio checkpoint is used out of distribution.",
+  "decoder_note": "Identity and CDF decoders define different targets through J(G(z)). Both are integrated/plotted in u=2Phi(z)-1 with a uniform coefficient prior. Only the CDF decoder has decoded output equal to u. The common symmetric two-center partition is the sign of the first coordinate in either space.",
+  "uncertainty_note": "One seed, four independent chain starts per setting. Chain standard errors measure start-to-start variation and do not eliminate finite-chain bias. Rejection reference standard errors are binomial under independent exact sampling."
+}

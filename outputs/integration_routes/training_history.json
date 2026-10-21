@@ -1,0 +1,52 @@
+[
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 0,
+    "ratio_updates": 1,
+    "ratio_batch_mse": 61.52813061903468,
+    "proposal_version": "06da89ff4e46d920"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_before_proposal",
+    "step": 3,
+    "ratio_updates": 4,
+    "ratio_batch_mse": 44.27887687092951,
+    "proposal_version": "06da89ff4e46d920"
+  },
+  {
+    "round": 0,
+    "phase": "proposal",
+    "step": 0,
+    "proposal_updates": 1,
+    "learned_accepted_movement": 0.09084438022082655,
+    "score_loss": 0.23649290718202678,
+    "baseline_before_update": 0.0
+  },
+  {
+    "round": 0,
+    "phase": "proposal",
+    "step": 1,
+    "proposal_updates": 2,
+    "learned_accepted_movement": 0.09766532031418051,
+    "score_loss": 0.2901149784400377,
+    "baseline_before_update": 0.004542219011041332
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 0,
+    "ratio_updates": 5,
+    "ratio_batch_mse": 44.21586343931416,
+    "proposal_version": "1d0e4caab36da0ac"
+  },
+  {
+    "round": 0,
+    "phase": "ratio_after_proposal",
+    "step": 3,
+    "ratio_updates": 8,
+    "ratio_batch_mse": 9.001017706781974,
+    "proposal_version": "1d0e4caab36da0ac"
+  }
+]

@@ -1,0 +1,211 @@
+{
+  "format_version": 1,
+  "config": {
+    "seed": 5,
+    "rounds": 1,
+    "hidden_dims": [
+      8,
+      8,
+      8
+    ],
+    "ratio_steps": 4,
+    "proposal_steps": 2,
+    "batch_size": 16,
+    "target_samples": 16,
+    "pairs_per_context": 32,
+    "calibration_samples": 16,
+    "ratio_lr": 0.002,
+    "proposal_lr": 0.0005,
+    "initial_eta": 0.65,
+    "movement_scale": 0.5,
+    "baseline_decay": 0.95,
+    "max_rejection_attempts": 2000000
+  },
+  "noise_dim": 2,
+  "context_dim": 32,
+  "context_mean": [
+    -0.52,
+    0.0,
+    0.52,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.028900000000000006,
+    0.0,
+    0.0,
+    0.04409999999999999,
+    0.028900000000000006,
+    0.0,
+    0.0,
+    0.04409999999999999,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.5,
+    0.5,
+    0.0,
+    0.0,
+    0.015,
+    1.0,
+    1.0,
+    0.0
+  ],
+  "context_scale": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "temperature": 1.0,
+  "temperature_policy": "fixed per checkpoint; changed beta requires recalibration",
+  "target_ids": [
+    "fde18af88d8bd70cbfed"
+  ],
+  "validation_target_ids": [],
+  "decoder_versions": [
+    "analytic_2d_cdf_v1"
+  ],
+  "proposal_version": "f90561c3230ee6ce",
+  "ratio_fitted_to_proposal_version": "f90561c3230ee6ce",
+  "completed_rounds": 1,
+  "history": [
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 0,
+      "ratio_updates": 1,
+      "ratio_batch_mse": 3.297108954808599,
+      "proposal_version": "51baf4a7d014342c"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 3,
+      "ratio_updates": 4,
+      "ratio_batch_mse": 4.829746064690676,
+      "proposal_version": "51baf4a7d014342c"
+    },
+    {
+      "round": 0,
+      "phase": "proposal",
+      "step": 0,
+      "proposal_updates": 1,
+      "learned_accepted_movement": 0.5123809449117436,
+      "score_loss": 1.1649907800261348,
+      "baseline_before_update": 0.0
+    },
+    {
+      "round": 0,
+      "phase": "proposal",
+      "step": 1,
+      "proposal_updates": 2,
+      "learned_accepted_movement": 0.3376065307921273,
+      "score_loss": 0.7276364866397909,
+      "baseline_before_update": 0.025619047245587202
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 0,
+      "ratio_updates": 5,
+      "ratio_batch_mse": 2.1791443998598474,
+      "proposal_version": "f90561c3230ee6ce"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 3,
+      "ratio_updates": 8,
+      "ratio_batch_mse": 2.1399746476627985,
+      "proposal_version": "f90561c3230ee6ce"
+    }
+  ],
+  "counters": {
+    "transitions": 0,
+    "decoder_calls": 384,
+    "exact_cost_evaluations": 320,
+    "simulator_steps": 0,
+    "training_oracle_evaluations": 320,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 0
+  },
+  "provenance": [
+    {
+      "round": 0,
+      "context_id": "fde18af88d8bd70cbfed",
+      "decoder_version": "analytic_2d_cdf_v1",
+      "proposal_version": "51baf4a7d014342c",
+      "method": "independent_exact_rejection",
+      "burn_in": 0,
+      "n_samples": 16
+    }
+  ],
+  "timing": {
+    "total_seconds": 1.5056321565061808,
+    "compilation_and_first_execution_seconds": 0.42810092121362686,
+    "warmed_execution_seconds": 0.1941839847713709
+  },
+  "normalization": "training-context mean; max(training std,1), no cost/label inputs",
+  "training_state_provenance": "independent exact rejection; no burn-in",
+  "calibration_counters": {
+    "transitions": 0,
+    "decoder_calls": 528,
+    "exact_cost_evaluations": 528,
+    "simulator_steps": 0,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 528
+  },
+  "calibration_summaries": {
+    "fde18af88d8bd70cbfed": {
+      "n_pairs": 16,
+      "ratio_mse": 4.110628432548398,
+      "acceptance_error": 0.5424010609037135,
+      "acceptance_learned": 0.9345079631577368,
+      "acceptance_exact": 0.44919930308928835,
+      "balance_mc_signed": 1.214476525816809,
+      "balance_mc_standard_error": 0.3892075336730133,
+      "interpretation": "Monte Carlo estimates, not certified population bounds"
+    }
+  },
+  "calibration_split": "training contexts"
+}

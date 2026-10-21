@@ -1,0 +1,7 @@
+# A declaration for future replication, not launched by the CLI or this pilot.
+base_configs:
+  - configs/analytic_pilot.yaml
+  - configs/route_pilot.yaml
+seeds: [17, 29, 43]
+instructions: Copy each base config, set seed and a unique output directory, run separately.
+status: deferred; the delivered pilot trains seed 17 only

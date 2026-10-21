@@ -1,0 +1,39 @@
+WARNING:2026-10-20 19:44:59,181:jax._src.xla_bridge:794: An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+[routes] reference test_unchanged
+[routes] test_unchanged: prior
+[routes] test_unchanged: rw
+[routes] test_unchanged: pcn
+[routes] test_unchanged: high_locality
+[routes] test_unchanged: learned_exact
+[routes] test_unchanged: learned
+[routes] test_unchanged: refresh_0.1
+[routes] test_unchanged: refresh_0.3
+[routes] test_unchanged: injected_error
+[routes] test_unchanged: no_movement
+[routes] reference test_mild_correction
+[routes] test_mild_correction: prior
+[routes] test_mild_correction: rw
+[routes] test_mild_correction: pcn
+[routes] test_mild_correction: high_locality
+[routes] test_mild_correction: learned_exact
+[routes] test_mild_correction: learned
+[routes] test_mild_correction: refresh_0.1
+[routes] test_mild_correction: refresh_0.3
+[routes] test_mild_correction: injected_error
+[routes] test_mild_correction: no_movement
+[routes] reference test_route_invalidation
+[routes] test_route_invalidation: prior
+[routes] test_route_invalidation: rw
+[routes] test_route_invalidation: pcn
+[routes] test_route_invalidation: high_locality
+[routes] test_route_invalidation: learned_exact
+[routes] test_route_invalidation: learned
+[routes] test_route_invalidation: refresh_0.1
+[routes] test_route_invalidation: refresh_0.3
+[routes] test_route_invalidation: injected_error
+[routes] test_route_invalidation: no_movement
+[routes] finite grid audit
+[routes] planning test_unchanged complete
+[routes] planning test_mild_correction complete
+[routes] planning test_route_invalidation complete
+Saved actual run artifacts to outputs/route_pilot

@@ -1,0 +1,13 @@
+WARNING:2026-10-20 19:56:56,294:jax._src.xla_bridge:794: An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+[analytic] reference two
+[analytic] two: prior
+[analytic] two: rw
+[analytic] two: pcn
+[analytic] two: high_locality
+[analytic] two: learned_exact
+[analytic] two: learned
+[analytic] two: refresh_0.1
+[analytic] two: injected_error
+[analytic] finite grid audit
+[analytic] planning two complete
+Saved actual run artifacts to outputs/integration_evaluate

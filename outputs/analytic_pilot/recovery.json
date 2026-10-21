@@ -1,0 +1,19 @@
+{
+  "reason": "Original process retained the pre-fix identity quadrature guard",
+  "completed_main_sampling_jobs_reused": 50,
+  "mechanism_contexts_reused": [
+    "two_beta_0.6",
+    "two_beta_1",
+    "two_beta_1.6"
+  ],
+  "new_planning_jobs": 0,
+  "planning_jobs_total": 168,
+  "oracle_evaluations_repeated_for_recovery": 0,
+  "counter_reconstruction": "Saved per-transition counters and oracle arrays; rejection counts from exact Gaussian PRNG matching",
+  "recovery_execution_seconds": 0.7472048308700323,
+  "original_total_elapsed_seconds": null,
+  "original_timing_note": "Interrupted orchestration did not persist a total timer; no value inferred",
+  "prior_recovery_execution_seconds": 46.810088055208325,
+  "cumulative_recovery_execution_seconds": 47.55729288607836,
+  "recovery_timing_scope": "Persisted recovery stages before rendering; original pre-interruption total unavailable"
+}

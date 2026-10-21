@@ -1,0 +1,6 @@
+{
+  "reason": "Exploratory ablation had one ratio-training round versus two for the main model",
+  "retained_for_audit": true,
+  "main_training_rounds": 2,
+  "ablation_training_rounds": 1
+}

@@ -1,0 +1,178 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "context": "two",
+      "n": 4096,
+      "normalizer": 0.0701057034483141,
+      "refined_normalizer": 0.07010516187679074,
+      "region_mass_grid_difference": 1.887379141862766e-15,
+      "reference_region_masses": [
+        0.49999999999999845,
+        0.49999999999999845
+      ],
+      "rejection_region_masses": [
+        0.502685546875,
+        0.497314453125
+      ],
+      "rejection_standard_error": [
+        0.0078125,
+        0.0078125
+      ],
+      "rejection_max_standardized_error": 0.34375000000019895,
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 58368,
+        "exact_cost_evaluations": 58368,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 58368
+      },
+      "provenance": "independent exact rejection; Gaussian prior draws"
+    },
+    {
+      "context": "rare",
+      "n": 4096,
+      "normalizer": 0.0701057034483141,
+      "refined_normalizer": 0.07010516187679074,
+      "region_mass_grid_difference": 4.010532393849964e-06,
+      "reference_region_masses": [
+        0.813715093950649,
+        0.186284906049348
+      ],
+      "rejection_region_masses": [
+        0.823974609375,
+        0.176025390625
+      ],
+      "rejection_standard_error": [
+        0.006083381399745491,
+        0.006083381399745453
+      ],
+      "rejection_max_standardized_error": 1.6864823607443422,
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 59904,
+        "exact_cost_evaluations": 59904,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 59904
+      },
+      "provenance": "independent exact rejection; Gaussian prior draws"
+    },
+    {
+      "context": "four",
+      "n": 4096,
+      "normalizer": 0.06967162783780574,
+      "refined_normalizer": 0.0696702845366427,
+      "region_mass_grid_difference": 4.996003610813204e-16,
+      "reference_region_masses": [
+        0.25000000000000006,
+        0.24999999999999953,
+        0.2499999999999999,
+        0.2499999999999995
+      ],
+      "rejection_region_masses": [
+        0.250732421875,
+        0.245361328125,
+        0.260498046875,
+        0.243408203125
+      ],
+      "rejection_standard_error": [
+        0.006765823467065928,
+        0.006765823467065922,
+        0.006765823467065926,
+        0.006765823467065922
+      ],
+      "rejection_max_standardized_error": 1.5516288484471359,
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 57344,
+        "exact_cost_evaluations": 57344,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 57344
+      },
+      "provenance": "independent exact rejection; Gaussian prior draws"
+    },
+    {
+      "context": "rotated",
+      "n": 4096,
+      "normalizer": 0.0505688614264466,
+      "refined_normalizer": 0.05056830180060299,
+      "region_mass_grid_difference": 4.861696489832923e-08,
+      "reference_region_masses": [
+        0.24998809688046594,
+        0.24998809688046614,
+        0.25001190311953336,
+        0.25001190311953375
+      ],
+      "rejection_region_masses": [
+        0.244873046875,
+        0.250732421875,
+        0.249267578125,
+        0.255126953125
+      ],
+      "rejection_standard_error": [
+        0.006765716084450179,
+        0.006765716084450181,
+        0.006765930842864881,
+        0.0067659308428648845
+      ],
+      "rejection_max_standardized_error": 0.7560249264999451,
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 80896,
+        "exact_cost_evaluations": 80896,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 80896
+      },
+      "provenance": "independent exact rejection; Gaussian prior draws"
+    },
+    {
+      "context": "constant",
+      "n": 4096,
+      "normalizer": 1.0,
+      "refined_normalizer": 1.0,
+      "region_mass_grid_difference": 4.718447854656915e-14,
+      "reference_region_masses": [
+        0.4999999999999021,
+        0.4999999999999021
+      ],
+      "rejection_region_masses": [
+        0.489990234375,
+        0.510009765625
+      ],
+      "rejection_standard_error": [
+        0.0078125,
+        0.0078125
+      ],
+      "rejection_max_standardized_error": 1.281250000012534,
+      "counters": {
+        "transitions": 0,
+        "decoder_calls": 4096,
+        "exact_cost_evaluations": 4096,
+        "simulator_steps": 0,
+        "training_oracle_evaluations": 0,
+        "refresh_current_evaluations": 0,
+        "refresh_proposed_evaluations": 0,
+        "final_validation_evaluations": 0,
+        "audit_evaluations": 4096
+      },
+      "provenance": "independent exact rejection; Gaussian prior draws"
+    }
+  ],
+  "failures": []
+}

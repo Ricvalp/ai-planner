@@ -1,0 +1,23 @@
+experiment: routes
+output: outputs/route_smoke
+seed: 17
+beta: 0.25
+grid_size: 40
+steps: 640
+burn_in: 128
+chains: 4
+reference_samples: 1024
+refresh_rates: [0.1, 0.3]
+planning: true
+planning_budgets: [16, 48]
+planning_replicates: 2
+no_movement_ablation: true
+training:
+  rounds: 1
+  hidden_dims: [32, 32, 32]
+  ratio_steps: 120
+  proposal_steps: 16
+  target_samples: 192
+  pairs_per_context: 512
+  batch_size: 64
+  calibration_samples: 256

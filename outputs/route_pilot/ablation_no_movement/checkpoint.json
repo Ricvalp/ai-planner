@@ -1,0 +1,1020 @@
+{
+  "format_version": 1,
+  "config": {
+    "seed": 17,
+    "rounds": 2,
+    "hidden_dims": [
+      32,
+      32,
+      32
+    ],
+    "ratio_steps": 240,
+    "proposal_steps": 0,
+    "batch_size": 128,
+    "target_samples": 384,
+    "pairs_per_context": 1024,
+    "calibration_samples": 512,
+    "ratio_lr": 0.002,
+    "proposal_lr": 0.0005,
+    "initial_eta": 0.65,
+    "movement_scale": 0.5,
+    "baseline_decay": 0.95,
+    "max_rejection_attempts": 2000000
+  },
+  "noise_dim": 2,
+  "context_dim": 25,
+  "context_mean": [
+    -0.8087414833652624,
+    0.09250529923385868,
+    0.4165390984228003,
+    0.4130380198400408,
+    0.9499999999999998,
+    -0.055000000000000014,
+    0.0009999999999999998,
+    -0.008333333333333333,
+    0.25,
+    1.0,
+    -0.0029999999999999996,
+    0.68,
+    0.52,
+    0.3333333333333333,
+    -0.6333333333333333,
+    0.2591666666666666,
+    -0.21111111111111114,
+    0.5327362577976967,
+    0.31666666666666665,
+    0.4976120359562521,
+    0.8444444444444444,
+    0.08816825859960416,
+    0.9499999999999998,
+    -0.014999999999999925,
+    -1.3862943611198906
+  ],
+  "context_scale": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "temperature": 0.25,
+  "temperature_policy": "fixed per checkpoint; changed beta requires recalibration",
+  "target_ids": [
+    "7e4bb4baefbc155dd03360cd",
+    "4e8edf1ff125056832375422",
+    "e25db8e75ebdd24bed67259f"
+  ],
+  "validation_target_ids": [
+    "756206aacaa8cfbbd2de5841",
+    "9334c3603eb4f61e355a81c8",
+    "d1d3f5d87a49b827331adcec"
+  ],
+  "decoder_versions": [
+    "analytic_route_2d-v1",
+    "analytic_route_2d-v1",
+    "analytic_route_2d-v1"
+  ],
+  "proposal_version": "5352c659e30aa894",
+  "ratio_fitted_to_proposal_version": "5352c659e30aa894",
+  "completed_rounds": 2,
+  "history": [
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 0,
+      "ratio_updates": 1,
+      "ratio_batch_mse": 37.168516978455614,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 10,
+      "ratio_updates": 11,
+      "ratio_batch_mse": 47.51563667452223,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 20,
+      "ratio_updates": 21,
+      "ratio_batch_mse": 44.295957488555686,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 30,
+      "ratio_updates": 31,
+      "ratio_batch_mse": 41.170324744420064,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 40,
+      "ratio_updates": 41,
+      "ratio_batch_mse": 42.268197701440315,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 50,
+      "ratio_updates": 51,
+      "ratio_batch_mse": 34.500544672273456,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 60,
+      "ratio_updates": 61,
+      "ratio_batch_mse": 37.70112810452611,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 70,
+      "ratio_updates": 71,
+      "ratio_batch_mse": 36.39274299988618,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 80,
+      "ratio_updates": 81,
+      "ratio_batch_mse": 39.868318863922156,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 90,
+      "ratio_updates": 91,
+      "ratio_batch_mse": 34.763580339249124,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 100,
+      "ratio_updates": 101,
+      "ratio_batch_mse": 25.801419020941175,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 110,
+      "ratio_updates": 111,
+      "ratio_batch_mse": 25.372467479683205,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 120,
+      "ratio_updates": 121,
+      "ratio_batch_mse": 18.232253137145438,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 130,
+      "ratio_updates": 131,
+      "ratio_batch_mse": 24.112970407603335,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 140,
+      "ratio_updates": 141,
+      "ratio_batch_mse": 20.82490181792665,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 150,
+      "ratio_updates": 151,
+      "ratio_batch_mse": 14.331111663597024,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 160,
+      "ratio_updates": 161,
+      "ratio_batch_mse": 9.71058754310505,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 170,
+      "ratio_updates": 171,
+      "ratio_batch_mse": 10.241370450973186,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 180,
+      "ratio_updates": 181,
+      "ratio_batch_mse": 11.296328021868135,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 190,
+      "ratio_updates": 191,
+      "ratio_batch_mse": 7.358107897464197,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 200,
+      "ratio_updates": 201,
+      "ratio_batch_mse": 6.398313251495723,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 210,
+      "ratio_updates": 211,
+      "ratio_batch_mse": 5.614114944379817,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 220,
+      "ratio_updates": 221,
+      "ratio_batch_mse": 9.001480014417023,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 230,
+      "ratio_updates": 231,
+      "ratio_batch_mse": 6.424903295956018,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_before_proposal",
+      "step": 239,
+      "ratio_updates": 240,
+      "ratio_batch_mse": 4.63757109076584,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 0,
+      "ratio_updates": 241,
+      "ratio_batch_mse": 6.091432881237145,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 10,
+      "ratio_updates": 251,
+      "ratio_batch_mse": 3.3671583999189365,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 20,
+      "ratio_updates": 261,
+      "ratio_batch_mse": 4.833971653479316,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 30,
+      "ratio_updates": 271,
+      "ratio_batch_mse": 3.3205443453449757,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 40,
+      "ratio_updates": 281,
+      "ratio_batch_mse": 4.899591954550861,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 50,
+      "ratio_updates": 291,
+      "ratio_batch_mse": 4.691931574668297,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 60,
+      "ratio_updates": 301,
+      "ratio_batch_mse": 2.0842480091961146,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 70,
+      "ratio_updates": 311,
+      "ratio_batch_mse": 2.337313690264416,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 80,
+      "ratio_updates": 321,
+      "ratio_batch_mse": 2.9977845009079966,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 90,
+      "ratio_updates": 331,
+      "ratio_batch_mse": 3.1823985867241418,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 100,
+      "ratio_updates": 341,
+      "ratio_batch_mse": 2.792609886951749,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 110,
+      "ratio_updates": 351,
+      "ratio_batch_mse": 4.251734490815443,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 120,
+      "ratio_updates": 361,
+      "ratio_batch_mse": 2.4814595893767377,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 130,
+      "ratio_updates": 371,
+      "ratio_batch_mse": 3.2489874094269178,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 140,
+      "ratio_updates": 381,
+      "ratio_batch_mse": 3.378566321201338,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 150,
+      "ratio_updates": 391,
+      "ratio_batch_mse": 2.277008696603616,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 160,
+      "ratio_updates": 401,
+      "ratio_batch_mse": 3.183610004040656,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 170,
+      "ratio_updates": 411,
+      "ratio_batch_mse": 4.063391232150119,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 180,
+      "ratio_updates": 421,
+      "ratio_batch_mse": 2.4452799767153444,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 190,
+      "ratio_updates": 431,
+      "ratio_batch_mse": 2.922181302321067,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 200,
+      "ratio_updates": 441,
+      "ratio_batch_mse": 1.8832286428288687,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 210,
+      "ratio_updates": 451,
+      "ratio_batch_mse": 5.254431210740006,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 220,
+      "ratio_updates": 461,
+      "ratio_batch_mse": 3.131188896994196,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 230,
+      "ratio_updates": 471,
+      "ratio_batch_mse": 4.3861518973862115,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 0,
+      "phase": "ratio_after_proposal",
+      "step": 239,
+      "ratio_updates": 480,
+      "ratio_batch_mse": 2.3432930902420632,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 0,
+      "ratio_updates": 481,
+      "ratio_batch_mse": 2.6647246272826317,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 10,
+      "ratio_updates": 491,
+      "ratio_batch_mse": 2.5337990332346942,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 20,
+      "ratio_updates": 501,
+      "ratio_batch_mse": 1.5759553401290052,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 30,
+      "ratio_updates": 511,
+      "ratio_batch_mse": 1.9125600655843886,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 40,
+      "ratio_updates": 521,
+      "ratio_batch_mse": 2.0377977061798696,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 50,
+      "ratio_updates": 531,
+      "ratio_batch_mse": 2.402350527701827,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 60,
+      "ratio_updates": 541,
+      "ratio_batch_mse": 2.016129104177013,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 70,
+      "ratio_updates": 551,
+      "ratio_batch_mse": 2.8923519549376495,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 80,
+      "ratio_updates": 561,
+      "ratio_batch_mse": 4.835613586217318,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 90,
+      "ratio_updates": 571,
+      "ratio_batch_mse": 2.079933302603383,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 100,
+      "ratio_updates": 581,
+      "ratio_batch_mse": 2.3277058935682367,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 110,
+      "ratio_updates": 591,
+      "ratio_batch_mse": 0.9183846845188555,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 120,
+      "ratio_updates": 601,
+      "ratio_batch_mse": 1.5177074223746785,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 130,
+      "ratio_updates": 611,
+      "ratio_batch_mse": 3.274753208247101,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 140,
+      "ratio_updates": 621,
+      "ratio_batch_mse": 0.6815017107329386,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 150,
+      "ratio_updates": 631,
+      "ratio_batch_mse": 2.795479978378701,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 160,
+      "ratio_updates": 641,
+      "ratio_batch_mse": 3.781189506996835,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 170,
+      "ratio_updates": 651,
+      "ratio_batch_mse": 1.343830498586697,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 180,
+      "ratio_updates": 661,
+      "ratio_batch_mse": 2.6602523446950173,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 190,
+      "ratio_updates": 671,
+      "ratio_batch_mse": 1.2964219634963285,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 200,
+      "ratio_updates": 681,
+      "ratio_batch_mse": 2.100789146167646,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 210,
+      "ratio_updates": 691,
+      "ratio_batch_mse": 5.996520878772734,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 220,
+      "ratio_updates": 701,
+      "ratio_batch_mse": 1.794491622237374,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 230,
+      "ratio_updates": 711,
+      "ratio_batch_mse": 1.0069369401144965,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_before_proposal",
+      "step": 239,
+      "ratio_updates": 720,
+      "ratio_batch_mse": 2.0012761939184815,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 0,
+      "ratio_updates": 721,
+      "ratio_batch_mse": 2.6652989790466735,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 10,
+      "ratio_updates": 731,
+      "ratio_batch_mse": 0.9324131923232988,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 20,
+      "ratio_updates": 741,
+      "ratio_batch_mse": 1.6914241906721788,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 30,
+      "ratio_updates": 751,
+      "ratio_batch_mse": 0.5583509131454809,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 40,
+      "ratio_updates": 761,
+      "ratio_batch_mse": 1.1899622802640275,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 50,
+      "ratio_updates": 771,
+      "ratio_batch_mse": 0.7674125471235569,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 60,
+      "ratio_updates": 781,
+      "ratio_batch_mse": 1.0601046827457106,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 70,
+      "ratio_updates": 791,
+      "ratio_batch_mse": 0.9917794894979175,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 80,
+      "ratio_updates": 801,
+      "ratio_batch_mse": 1.19159343964329,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 90,
+      "ratio_updates": 811,
+      "ratio_batch_mse": 1.1699265838407014,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 100,
+      "ratio_updates": 821,
+      "ratio_batch_mse": 1.196744245134596,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 110,
+      "ratio_updates": 831,
+      "ratio_batch_mse": 1.1923383500072693,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 120,
+      "ratio_updates": 841,
+      "ratio_batch_mse": 0.7069859714517861,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 130,
+      "ratio_updates": 851,
+      "ratio_batch_mse": 0.7637374083608163,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 140,
+      "ratio_updates": 861,
+      "ratio_batch_mse": 2.7772297810943045,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 150,
+      "ratio_updates": 871,
+      "ratio_batch_mse": 1.6597513245184465,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 160,
+      "ratio_updates": 881,
+      "ratio_batch_mse": 2.2280020051972134,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 170,
+      "ratio_updates": 891,
+      "ratio_batch_mse": 0.5170760281955008,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 180,
+      "ratio_updates": 901,
+      "ratio_batch_mse": 0.7574592636348622,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 190,
+      "ratio_updates": 911,
+      "ratio_batch_mse": 0.7516128531707184,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 200,
+      "ratio_updates": 921,
+      "ratio_batch_mse": 1.4190889862765705,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 210,
+      "ratio_updates": 931,
+      "ratio_batch_mse": 1.5348182562624428,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 220,
+      "ratio_updates": 941,
+      "ratio_batch_mse": 0.6906420788232881,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 230,
+      "ratio_updates": 951,
+      "ratio_batch_mse": 1.5125031563738762,
+      "proposal_version": "5352c659e30aa894"
+    },
+    {
+      "round": 1,
+      "phase": "ratio_after_proposal",
+      "step": 239,
+      "ratio_updates": 960,
+      "ratio_batch_mse": 0.7509802620413032,
+      "proposal_version": "5352c659e30aa894"
+    }
+  ],
+  "counters": {
+    "transitions": 0,
+    "decoder_calls": 19968,
+    "exact_cost_evaluations": 19968,
+    "simulator_steps": 3594240,
+    "training_oracle_evaluations": 19968,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 0
+  },
+  "provenance": [
+    {
+      "round": 0,
+      "context_id": "7e4bb4baefbc155dd03360cd",
+      "decoder_version": "analytic_route_2d-v1",
+      "proposal_version": "5352c659e30aa894",
+      "method": "independent_exact_rejection",
+      "burn_in": 0,
+      "n_samples": 384
+    },
+    {
+      "round": 0,
+      "context_id": "4e8edf1ff125056832375422",
+      "decoder_version": "analytic_route_2d-v1",
+      "proposal_version": "5352c659e30aa894",
+      "method": "independent_exact_rejection",
+      "burn_in": 0,
+      "n_samples": 384
+    },
+    {
+      "round": 0,
+      "context_id": "e25db8e75ebdd24bed67259f",
+      "decoder_version": "analytic_route_2d-v1",
+      "proposal_version": "5352c659e30aa894",
+      "method": "independent_exact_rejection",
+      "burn_in": 0,
+      "n_samples": 384
+    },
+    {
+      "round": 1,
+      "context_id": "7e4bb4baefbc155dd03360cd",
+      "decoder_version": "analytic_route_2d-v1",
+      "proposal_version": "5352c659e30aa894",
+      "method": "independent_exact_rejection",
+      "burn_in": 0,
+      "n_samples": 384
+    },
+    {
+      "round": 1,
+      "context_id": "4e8edf1ff125056832375422",
+      "decoder_version": "analytic_route_2d-v1",
+      "proposal_version": "5352c659e30aa894",
+      "method": "independent_exact_rejection",
+      "burn_in": 0,
+      "n_samples": 384
+    },
+    {
+      "round": 1,
+      "context_id": "e25db8e75ebdd24bed67259f",
+      "decoder_version": "analytic_route_2d-v1",
+      "proposal_version": "5352c659e30aa894",
+      "method": "independent_exact_rejection",
+      "burn_in": 0,
+      "n_samples": 384
+    }
+  ],
+  "timing": {
+    "total_seconds": 2.9647252559661865,
+    "compilation_and_first_execution_seconds": 0.26335779018700123,
+    "warmed_execution_seconds": 1.1926628667861223
+  },
+  "normalization": "training-context mean; max(training std,1), no cost/label inputs",
+  "training_state_provenance": "independent exact rejection; no burn-in",
+  "calibration_counters": {
+    "transitions": 0,
+    "decoder_calls": 6656,
+    "exact_cost_evaluations": 6656,
+    "simulator_steps": 1198080,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 6656
+  },
+  "calibration_summaries": {
+    "756206aacaa8cfbbd2de5841": {
+      "n_pairs": 512,
+      "ratio_mse": 3.8390235045713954,
+      "acceptance_error": 0.06161030667158876,
+      "acceptance_learned": 0.7329795108507442,
+      "acceptance_exact": 0.7864169567911753,
+      "balance_mc_signed": 0.15579061080889287,
+      "balance_mc_standard_error": 0.04129955799935466,
+      "interpretation": "Monte Carlo estimates, not certified population bounds"
+    },
+    "9334c3603eb4f61e355a81c8": {
+      "n_pairs": 512,
+      "ratio_mse": 4.4222604517049735,
+      "acceptance_error": 0.06062207321781246,
+      "acceptance_learned": 0.6784437544709228,
+      "acceptance_exact": 0.731759639096948,
+      "balance_mc_signed": 0.15964400924499383,
+      "balance_mc_standard_error": 0.0400763258044885,
+      "interpretation": "Monte Carlo estimates, not certified population bounds"
+    },
+    "d1d3f5d87a49b827331adcec": {
+      "n_pairs": 512,
+      "ratio_mse": 0.4903233922265402,
+      "acceptance_error": 0.023292440212061553,
+      "acceptance_learned": 0.6383802225568522,
+      "acceptance_exact": 0.6594082898413934,
+      "balance_mc_signed": 0.016939424221767748,
+      "balance_mc_standard_error": 0.010166914295996655,
+      "interpretation": "Monte Carlo estimates, not certified population bounds"
+    }
+  },
+  "calibration_split": "held-out contexts"
+}

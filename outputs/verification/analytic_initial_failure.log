@@ -1,0 +1,74 @@
+WARNING:2026-10-20 19:44:59,181:jax._src.xla_bridge:794: An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+[analytic] reference two
+[analytic] two: prior
+[analytic] two: rw
+[analytic] two: pcn
+[analytic] two: high_locality
+[analytic] two: learned_exact
+[analytic] two: learned
+[analytic] two: refresh_0.1
+[analytic] two: refresh_0.3
+[analytic] two: injected_error
+[analytic] two: no_movement
+[analytic] reference rare
+[analytic] rare: prior
+[analytic] rare: rw
+[analytic] rare: pcn
+[analytic] rare: high_locality
+[analytic] rare: learned_exact
+[analytic] rare: learned
+[analytic] rare: refresh_0.1
+[analytic] rare: refresh_0.3
+[analytic] rare: injected_error
+[analytic] rare: no_movement
+[analytic] reference four
+[analytic] four: prior
+[analytic] four: rw
+[analytic] four: pcn
+[analytic] four: high_locality
+[analytic] four: learned_exact
+[analytic] four: learned
+[analytic] four: refresh_0.1
+[analytic] four: refresh_0.3
+[analytic] four: injected_error
+[analytic] four: no_movement
+[analytic] reference rotated
+[analytic] rotated: prior
+[analytic] rotated: rw
+[analytic] rotated: pcn
+[analytic] rotated: high_locality
+[analytic] rotated: learned_exact
+[analytic] rotated: learned
+[analytic] rotated: refresh_0.1
+[analytic] rotated: refresh_0.3
+[analytic] rotated: injected_error
+[analytic] rotated: no_movement
+[analytic] reference constant
+[analytic] constant: prior
+[analytic] constant: rw
+[analytic] constant: pcn
+[analytic] constant: high_locality
+[analytic] constant: learned_exact
+[analytic] constant: learned
+[analytic] constant: refresh_0.1
+[analytic] constant: refresh_0.3
+[analytic] constant: injected_error
+[analytic] constant: no_movement
+[analytic] finite grid audit
+Traceback (most recent call last):
+  File "/home/rvalperga/ai-planner/.venv/bin/ai-planner", line 10, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/home/rvalperga/ai-planner/src/ai_planner/cli.py", line 49, in main
+    path=run_experiment(kind,config,output,checkpoint=getattr(args,"checkpoint",None),
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rvalperga/ai-planner/src/ai_planner/evaluation.py", line 237, in run_experiment
+    mechanism=run_mechanisms(output,tests,seed=seed)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rvalperga/ai-planner/src/ai_planner/mechanisms.py", line 54, in run_mechanisms
+    grid, fine = quadrature(target, grid_size), quadrature(target, 2 * grid_size)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rvalperga/ai-planner/src/ai_planner/targets.py", line 120, in quadrature
+    With the analytic CDF decoder, u is also the decoded output y. For an
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: compact quadrature requires the two-dimensional CDF decoder

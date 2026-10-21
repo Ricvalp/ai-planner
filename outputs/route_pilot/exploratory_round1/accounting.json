@@ -1,0 +1,101 @@
+{
+  "sampling": {
+    "transitions": 215040,
+    "decoder_calls": 215160,
+    "exact_cost_evaluations": 100307,
+    "simulator_steps": 18055260,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 5676,
+    "refresh_proposed_evaluations": 8567,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 0
+  },
+  "audit": {
+    "transitions": 0,
+    "decoder_calls": 118676,
+    "exact_cost_evaluations": 118676,
+    "simulator_steps": 21361680,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 118676
+  },
+  "training": {
+    "transitions": 0,
+    "decoder_calls": 30208,
+    "exact_cost_evaluations": 19968,
+    "simulator_steps": 3594240,
+    "training_oracle_evaluations": 19968,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 0
+  },
+  "training_calibration": {
+    "transitions": 0,
+    "decoder_calls": 6656,
+    "exact_cost_evaluations": 6656,
+    "simulator_steps": 1198080,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 6656
+  },
+  "ablation_training": {
+    "transitions": 0,
+    "decoder_calls": 9984,
+    "exact_cost_evaluations": 9984,
+    "simulator_steps": 1797120,
+    "training_oracle_evaluations": 9984,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 0
+  },
+  "ablation_calibration": {
+    "transitions": 0,
+    "decoder_calls": 6656,
+    "exact_cost_evaluations": 6656,
+    "simulator_steps": 1198080,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 6656
+  },
+  "planning": {
+    "transitions": 7338,
+    "decoder_calls": 8040,
+    "exact_cost_evaluations": 4608,
+    "simulator_steps": 829440,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 184,
+    "refresh_proposed_evaluations": 447,
+    "final_validation_evaluations": 144,
+    "audit_evaluations": 0
+  },
+  "physical_context_creation_steps": 162,
+  "physical_execution_steps": 378,
+  "total_elapsed_seconds": 77.00864836014807,
+  "note": "Audit costs excluded from deployment budgets but charged separately. JIT compilation separately timed.",
+  "extra_audit": {
+    "transitions": 0,
+    "decoder_calls": 3072,
+    "exact_cost_evaluations": 3072,
+    "simulator_steps": 552960,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 3072,
+    "name": "heldout_accepted_flow_mc-v1",
+    "source_cost_evaluations": 1536,
+    "proposed_cost_evaluations": 1536,
+    "compilation_seconds": 0.6264560502022505,
+    "warmed_execution_seconds": 0.021566130220890045,
+    "context_creation_steps": 0,
+    "note": "Saved once per signature. Original audit accounting is preserved; summaries use zero oracle calls."
+  }
+}

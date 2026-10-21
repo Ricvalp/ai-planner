@@ -1,0 +1,293 @@
+{
+  "rows": [
+    {
+      "n_samples": 8192,
+      "burn_in_per_chain": 256,
+      "n_chains": 4,
+      "region_masses": [
+        0.4114990234375,
+        0.5885009765625
+      ],
+      "reference_region_masses": [
+        0.5000000000000003,
+        0.5000000000000003
+      ],
+      "region_mass_standard_error": [
+        0.016214534253271563,
+        0.016214534253271563
+      ],
+      "region_tv": 0.0885009765625,
+      "coarse_tv": 0.1481383946790537,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.504638671875,
+      "ess": 768.7003499814936,
+      "coordinate_ess": [
+        650.5233558156534,
+        1411.3973053741165
+      ],
+      "mode_switches": 910,
+      "accepted_movement": 0.17818525733581111,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "two",
+      "method": "no_movement",
+      "beta": 1.0,
+      "rho": 0.0,
+      "ablation_training_rounds": 2,
+      "ablation_ratio_updates": 800,
+      "ablation_proposal_updates": 0,
+      "compilation_seconds": 0.13587316125631332,
+      "warmed_execution_seconds": 0.06512043625116348,
+      "transitions": 9216,
+      "decoder_calls": 9220,
+      "exact_cost_evaluations": 0,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    {
+      "n_samples": 8192,
+      "burn_in_per_chain": 256,
+      "n_chains": 4,
+      "region_masses": [
+        0.8572998046875,
+        0.1427001953125
+      ],
+      "reference_region_masses": [
+        0.8137191044830429,
+        0.18628089551695726
+      ],
+      "region_mass_standard_error": [
+        0.013058480832342685,
+        0.013058480832342685
+      ],
+      "region_tv": 0.0435807002044572,
+      "coarse_tv": 0.1266631910585158,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.4288330078125,
+      "ess": 767.3602502684572,
+      "coordinate_ess": [
+        681.711469191591,
+        1403.7118576508672
+      ],
+      "mode_switches": 454,
+      "accepted_movement": 0.1336463558513912,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "rare",
+      "method": "no_movement",
+      "beta": 1.0,
+      "rho": 0.0,
+      "ablation_training_rounds": 2,
+      "ablation_ratio_updates": 800,
+      "ablation_proposal_updates": 0,
+      "compilation_seconds": 0.13301392830908298,
+      "warmed_execution_seconds": 0.05929938331246376,
+      "transitions": 9216,
+      "decoder_calls": 9220,
+      "exact_cost_evaluations": 0,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    {
+      "n_samples": 8192,
+      "burn_in_per_chain": 256,
+      "n_chains": 4,
+      "region_masses": [
+        0.2379150390625,
+        0.2601318359375,
+        0.2674560546875,
+        0.2344970703125
+      ],
+      "reference_region_masses": [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "region_mass_standard_error": [
+        0.011576102220362084,
+        0.024665353072045832,
+        0.020693348429570314,
+        0.01278945059120468
+      ],
+      "region_tv": 0.027587890625,
+      "coarse_tv": 0.14898418663182086,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.6314697265625,
+      "ess": 1363.0283743822297,
+      "coordinate_ess": [
+        819.9121252588142,
+        846.5985659818547
+      ],
+      "mode_switches": 2025,
+      "accepted_movement": 0.24311342598596358,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "four",
+      "method": "no_movement",
+      "beta": 1.0,
+      "rho": 0.0,
+      "ablation_training_rounds": 2,
+      "ablation_ratio_updates": 800,
+      "ablation_proposal_updates": 0,
+      "compilation_seconds": 0.1270077098160982,
+      "warmed_execution_seconds": 0.05841021612286568,
+      "transitions": 9216,
+      "decoder_calls": 9220,
+      "exact_cost_evaluations": 0,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    {
+      "n_samples": 8192,
+      "burn_in_per_chain": 256,
+      "n_chains": 4,
+      "region_masses": [
+        0.244140625,
+        0.24462890625,
+        0.2738037109375,
+        0.2374267578125
+      ],
+      "reference_region_masses": [
+        0.24998814549743048,
+        0.24998814549743018,
+        0.2500118545025688,
+        0.25001185450256885
+      ],
+      "region_mass_standard_error": [
+        0.012799738289223874,
+        0.00796113092538776,
+        0.015039769275785986,
+        0.014382038052091203
+      ],
+      "region_tv": 0.023791856434930356,
+      "coarse_tv": 0.16587677477648355,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.630126953125,
+      "ess": 1031.6310059932425,
+      "coordinate_ess": [
+        855.3048802116941,
+        816.0717277690169
+      ],
+      "mode_switches": 1964,
+      "accepted_movement": 0.24017212086081388,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "rotated",
+      "method": "no_movement",
+      "beta": 1.0,
+      "rho": 0.0,
+      "ablation_training_rounds": 2,
+      "ablation_ratio_updates": 800,
+      "ablation_proposal_updates": 0,
+      "compilation_seconds": 0.12574147060513496,
+      "warmed_execution_seconds": 0.06111369468271732,
+      "transitions": 9216,
+      "decoder_calls": 9220,
+      "exact_cost_evaluations": 0,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    },
+    {
+      "n_samples": 8192,
+      "burn_in_per_chain": 256,
+      "n_chains": 4,
+      "region_masses": [
+        0.4901123046875,
+        0.5098876953125
+      ],
+      "reference_region_masses": [
+        0.49999999999994926,
+        0.49999999999994926
+      ],
+      "region_mass_standard_error": [
+        0.01012791324038254,
+        0.01012791324038254
+      ],
+      "region_tv": 0.0098876953125,
+      "coarse_tv": 0.44995117187499956,
+      "coarse_histogram_bins": 8,
+      "acceptance_rate": 0.50341796875,
+      "ess": 730.4286913426804,
+      "coordinate_ess": [
+        624.7673505806272,
+        1736.9881612833024
+      ],
+      "mode_switches": 876,
+      "accepted_movement": 0.18163206509073648,
+      "accepted_movement_space": "target.features(decoded candidate), scale 0.5",
+      "provenance": "finite frozen-kernel chains; repeated rejected states retained",
+      "uncertainty": "across independent chain starts; does not eliminate finite-chain bias",
+      "context": "constant",
+      "method": "no_movement",
+      "beta": 1.0,
+      "rho": 0.0,
+      "ablation_training_rounds": 2,
+      "ablation_ratio_updates": 800,
+      "ablation_proposal_updates": 0,
+      "compilation_seconds": 0.12729445472359657,
+      "warmed_execution_seconds": 0.06284209340810776,
+      "transitions": 9216,
+      "decoder_calls": 9220,
+      "exact_cost_evaluations": 0,
+      "simulator_steps": 0,
+      "training_oracle_evaluations": 0,
+      "refresh_current_evaluations": 0,
+      "refresh_proposed_evaluations": 0,
+      "final_validation_evaluations": 0,
+      "audit_evaluations": 0
+    }
+  ],
+  "audit": [
+    {
+      "audit_evaluations": 128,
+      "decoder_calls": 128,
+      "exact_cost_evaluations": 128,
+      "simulator_steps": 0
+    },
+    {
+      "audit_evaluations": 128,
+      "decoder_calls": 128,
+      "exact_cost_evaluations": 128,
+      "simulator_steps": 0
+    },
+    {
+      "audit_evaluations": 128,
+      "decoder_calls": 128,
+      "exact_cost_evaluations": 128,
+      "simulator_steps": 0
+    },
+    {
+      "audit_evaluations": 128,
+      "decoder_calls": 128,
+      "exact_cost_evaluations": 128,
+      "simulator_steps": 0
+    },
+    {
+      "audit_evaluations": 128,
+      "decoder_calls": 128,
+      "exact_cost_evaluations": 128,
+      "simulator_steps": 0
+    }
+  ]
+}

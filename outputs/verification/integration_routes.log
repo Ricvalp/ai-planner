@@ -1,0 +1,13 @@
+WARNING:2026-10-20 19:52:21,018:jax._src.xla_bridge:794: An NVIDIA GPU may be present on this machine, but a CUDA-enabled jaxlib is not installed. Falling back to cpu.
+[routes] reference test_route_invalidation
+[routes] test_route_invalidation: prior
+[routes] test_route_invalidation: rw
+[routes] test_route_invalidation: pcn
+[routes] test_route_invalidation: high_locality
+[routes] test_route_invalidation: learned_exact
+[routes] test_route_invalidation: learned
+[routes] test_route_invalidation: refresh_0.1
+[routes] test_route_invalidation: injected_error
+[routes] finite grid audit
+[routes] planning test_route_invalidation complete
+Saved actual run artifacts to outputs/integration_routes

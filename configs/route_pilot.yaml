@@ -1,0 +1,23 @@
+experiment: routes
+output: outputs/route_pilot
+seed: 17
+beta: 0.25
+grid_size: 80
+steps: 1792
+burn_in: 256
+chains: 4
+reference_samples: 2048
+refresh_rates: [0.1, 0.3]
+planning: true
+planning_budgets: [16, 48]
+planning_replicates: 3
+no_movement_ablation: true
+training:
+  rounds: 2
+  hidden_dims: [32, 32, 32]
+  ratio_steps: 240
+  proposal_steps: 20
+  target_samples: 384
+  pairs_per_context: 1024
+  batch_size: 128
+  calibration_samples: 512

@@ -1,0 +1,51 @@
+{
+  "target_ids": [
+    "756206aacaa8cfbbd2de5841",
+    "9334c3603eb4f61e355a81c8",
+    "d1d3f5d87a49b827331adcec"
+  ],
+  "split": "held-out contexts",
+  "summaries": {
+    "756206aacaa8cfbbd2de5841": {
+      "n_pairs": 512,
+      "ratio_mse": 3.8390235045713954,
+      "acceptance_error": 0.06161030667158876,
+      "acceptance_learned": 0.7329795108507442,
+      "acceptance_exact": 0.7864169567911753,
+      "balance_mc_signed": 0.15579061080889287,
+      "balance_mc_standard_error": 0.04129955799935466,
+      "interpretation": "Monte Carlo estimates, not certified population bounds"
+    },
+    "9334c3603eb4f61e355a81c8": {
+      "n_pairs": 512,
+      "ratio_mse": 4.4222604517049735,
+      "acceptance_error": 0.06062207321781246,
+      "acceptance_learned": 0.6784437544709228,
+      "acceptance_exact": 0.731759639096948,
+      "balance_mc_signed": 0.15964400924499383,
+      "balance_mc_standard_error": 0.0400763258044885,
+      "interpretation": "Monte Carlo estimates, not certified population bounds"
+    },
+    "d1d3f5d87a49b827331adcec": {
+      "n_pairs": 512,
+      "ratio_mse": 0.4903233922265402,
+      "acceptance_error": 0.023292440212061553,
+      "acceptance_learned": 0.6383802225568522,
+      "acceptance_exact": 0.6594082898413934,
+      "balance_mc_signed": 0.016939424221767748,
+      "balance_mc_standard_error": 0.010166914295996655,
+      "interpretation": "Monte Carlo estimates, not certified population bounds"
+    }
+  },
+  "counters": {
+    "transitions": 0,
+    "decoder_calls": 6656,
+    "exact_cost_evaluations": 6656,
+    "simulator_steps": 1198080,
+    "training_oracle_evaluations": 0,
+    "refresh_current_evaluations": 0,
+    "refresh_proposed_evaluations": 0,
+    "final_validation_evaluations": 0,
+    "audit_evaluations": 6656
+  }
+}
